@@ -1,8 +1,8 @@
-CodeSystem: DoseFormOntologyCS
-Id:         dose-form-ontology-cs
-Title:     "Dose Form Ontology Code System"
+CodeSystem: SubstanceOntologyCS
+Id:         substance-ontology-cs
+Title:     "Substance Ontology Code System"
 
-* ^url = "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"
+* ^url = "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"
 // * ^filter.code = #subform
 // * ^filter.description = "Select codes that are childen of a given form"
 // * ^filter.operator = #=
@@ -20,39 +20,29 @@ Title:     "Dose Form Ontology Code System"
 
 * ^hierarchyMeaning = #is-a
 * #20053000
-    "Oral use"
-    "Oral Use"
+    "Amlodipine"
+    "Amlodipine"
   * ^property[+].code = #child
   * ^property[=].valueCode = #10220XXX
   * ^property[+].code = #child
   * ^property[=].valueCode = #10220000
 
   * #10220XXX
-      "Capsule"
-      "Capsule"
+      "Amlodipine Besilate"
+      "Amlodipine Besilate"
     * ^property[+].code = #parent
     * ^property[=].valueCode = #20053000
 
 
-  * #10220000
-      "Tablet"
-      "Tablet"
+  * #10220XXX1
+      "Amlodipine Mesilate"
+      "Amlodipine Mesilate"
     * ^property[+].code = #parent
     * ^property[=].valueCode = #20053000
-    * ^property[+].code = #child
-    * ^property[=].valueCode = #10318000
-      
-      
-    * #10318000
-      "Sublingual tablet"
-      "Sublingual tablet"
-      
-      * ^property[+].code = #parent
-      * ^property[=].valueCode = #10220000
 
 
 
-ValueSet: DoseFormOntologyVS
-Id: dose-form-ontology-vs
-Title: "Dose Form ontology Value Set"
-* include codes from system DoseFormOntologyCS
+ValueSet: SubstanceOntologyVS
+Id: substance-ontology-vs
+Title: "Substance ontology Value Set"
+* include codes from system SubstanceOntologyCS
