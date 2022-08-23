@@ -6,8 +6,8 @@
 id: medigree.fhir.mpd5
 canonical: http://medigree.net/fhir/mpd5
 name: MPD5
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: MPD 5
+description: MPD 5
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 5.0.0-snapshot1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
