@@ -8,8 +8,8 @@ RuleSet: Question(context, linkId, text, type, required, repeats)
 
 Instance: questionnaire-ee
 InstanceOf: Questionnaire
-Description: "EE Product identifying attributes"
-Title:    "EE Product"
+Description: "EE Product form"
+Title:    "EE MPD Product"
 * identifier[0].system = "http://www.ee.org"
 * identifier[0].value = "questionnaire-ee"
 * name = "questionnaire-ee"
@@ -20,20 +20,20 @@ Title:    "EE Product"
 * item[=]
   * insert Question(,identifier_system,System,string,true,false)
   * insert Question(,identifier_value,Value,string,true,false)
-* insert Question(,domain,Domain,choice,false,false)
+* insert Question(,domain,Domain,coding,false,false)
 * item[=].answerOption[+].valueCoding = #100000000012 "Human use"
-* insert Question(,status,Status,group,false,false)
+* insert Question(,status,Status,group,false,true)
 * item[=]
-  * insert Question(,status_type,Type,choice,true,false)
-  * insert Question(,status_code,Status,choice,true,false)
+  * insert Question(,status_type,Type,coding,true,false)
+  * insert Question(,status_code,Status,coding,true,false)
 
 
-* insert Question(,legalStatusOfSupply,Legal Status of Supply,choice,false,false)
+* insert Question(,legalStatusOfSupply,Legal Status of Supply,coding,false,false)
 * item[=].answerOption[+].valueCoding = #EE "Estonia"
 
 * insert Question(,classification,Classification,group,false,true)
 * item[=]
-  * insert Question(,type,Type,choice,true,false)
+  * insert Question(,type,Type,coding,true,false)
   * item[=].answerOption[+].valueCoding = #atc "ATC"
   * item[=].answerOption[+].valueCoding = #atc "EMA Anatomical Therapeutic Chemical classification - Human"
 
@@ -44,16 +44,16 @@ Title:    "EE Product"
   * insert Question(,full_name,Full Product name,string,false,false)
   * insert Question(,name_part,Name Part,group,false,true)
   * item[=]
-    * insert Question(,type,Type,choice,true,false)
+    * insert Question(,type,Type,coding,true,false)
     * item[=].answerOption[+].valueCoding = #220000000002 "Invented name part"
     * item[=].answerOption[+].valueCoding = #220000000004 "Strength part"
     * item[=].answerOption[+].valueCoding = #220000000005 "Pharmaceutical dose form part"
     * insert Question(,value,Value,string,true,false)
 
-* insert Question(,authorised_dose_form,Authorised dose form,choice,false,false)
+* insert Question(,authorised_dose_form,Authorised dose form,coding,false,false)
 
-* insert Question(,language,Language,group,false,false)
+* insert Question(,language,Language,group,false,true)
 * item[=]
   * insert Question(,language,Language,string,false,false)
-  * insert Question(,country,Country,choice,false,false)
+  * insert Question(,country,Country,coding,false,false)
   * item[=].answerOption[+].valueCoding = #EE "Estonia"
