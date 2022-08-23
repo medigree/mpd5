@@ -26,7 +26,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:10.988+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Agen-10mg-Tablet-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD"
@@ -54,7 +54,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:26.529+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Agen-5mg-Tablet-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"
@@ -82,7 +82,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:26.645+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD"
@@ -110,7 +110,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:26.761+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD"
@@ -135,7 +135,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:26.860+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Anafranil-25mg-Coated-tablet-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Anafranil-25mg-Coated-tablet-EE-MPD"
@@ -160,7 +160,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:26.954+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Betaklav-500mg-125mg-f-c-tb-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-MPD"
@@ -194,7 +194,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:27.157+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD"
@@ -222,7 +222,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:27.258+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Canesten500mg-Vaginal-Soft-Capsule-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD"
@@ -247,7 +247,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:27.345+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD"
@@ -281,7 +281,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:27.484+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"
@@ -306,7 +306,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:27.584+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Carbalex-200mg-Tablet-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD"
@@ -331,7 +331,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:27.758+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD"
@@ -359,7 +359,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:28.157+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Clexane-60mg-0.6ml-solinj-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Clexane-60mg-0.6ml-solinj-EE-MPD"
@@ -384,7 +384,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:28.253+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Diclac-10mg1g-Gel-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Diclac-10mg1g-Gel-EE-MPD"
@@ -412,7 +412,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:28.366+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Diclofenac-Mylan-180mg-Med-plaster-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"
@@ -440,7 +440,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:28.486+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Enalapril-Vitabalans-5mg-Tablet-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-MPD"
@@ -468,7 +468,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:28.575+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD"
@@ -502,7 +502,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:28.682+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD"
@@ -527,7 +527,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:28.784+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD"
@@ -552,7 +552,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:28.887+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD"
@@ -577,7 +577,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.001+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Metfogamma850-850mg-f-c-tb-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Metfogamma850-850mg-f-c-tb-EE-MPD"
@@ -605,7 +605,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.084+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = MXL-30mg-prol-rel-hard-cap-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-MPD"
@@ -639,7 +639,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.173+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD"
@@ -682,7 +682,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.290+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Prokanazol-100mg-Hard-capsule-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Prokanazol-100mg-Hard-capsule-EE-MPD"
@@ -710,7 +710,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.484+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Qlaira-f-c-tb-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Qlaira-f-c-tb-EE-MPD"
@@ -777,7 +777,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.612+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD"
@@ -802,7 +802,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.693+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Simvacor-10mg-f-c-tb-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Simvacor-10mg-f-c-tb-EE-MPD"
@@ -830,7 +830,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.816+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD"
@@ -855,7 +855,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:29.959+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Toujeo-300units-ml-solinj-pen-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Toujeo-300units-ml-solinj-pen-EE-MPD"
@@ -880,7 +880,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:30.035+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD"
@@ -905,7 +905,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:30.130+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD"
@@ -930,7 +930,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:30.224+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD"
@@ -955,7 +955,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:30.322+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Ventolin-100mcg-Press-inh-susp-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-MPD"
@@ -980,7 +980,7 @@ InstanceOf: Bundle
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2022-08-23T06:28:30.427+00:00"
-* type = #collection
+* type = #transaction
 * entry[0].resource = Zoladex-3.6mg-Implant-EE-MPD
 * entry[=].request.method = #PUT
 * entry[=].request.url = "MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"
