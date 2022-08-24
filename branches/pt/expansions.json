@@ -1,0 +1,149 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "7efd7852-8783-461a-912c-092d58601b15",
+  "meta" : {
+    "lastUpdated" : "2022-08-24T21:33:25.719+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "dose-form-ontology-cs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 10 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-edqm-doseform-ont-cs.html\">Dose Form Ontology Code System v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-edqm-doseform-ont-cs.html\"><code>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10219000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10219000\">10219000</a></td><td>Tablet</td><td>Tablet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10223000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10223000\">10223000</a></td><td>Orodispersible tablet</td><td>Orodispersible tablet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10226000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10226000\">10226000</a></td><td>Prolonged-release tablet</td><td>Prolonged-release tablet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10228000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10228000\">10228000</a></td><td>Chewable tablet</td><td>Chewable tablet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10220000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10220000\">10220000</a></td><td>Coated tablet</td><td>Coated tablet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10221000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10221000\">10221000</a></td><td>Film-coated tablet</td><td>Film-coated tablet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-12100\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-12100\">12100</a></td><td>Capsule</td><td>Capsule</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10210000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10210000\">10210000</a></td><td>Capsule, hard</td><td>Capsule, hard</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10211000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10211000\">10211000</a></td><td>Capsule, soft</td><td>Capsule, soft</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10214000\"> </a>  <a href=\"CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10214000\">10214000</a></td><td>Chewable capsule, soft</td><td>Chewable capsule, soft</td></tr></table></div>"
+      },
+      "url" : "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs",
+      "version" : "0.1.0",
+      "name" : "EDQM-DOSEFORM-ONT-VS",
+      "title" : "Dose Form ontology Value Set",
+      "status" : "active",
+      "date" : "2022-08-24T21:33:25+00:00",
+      "publisher" : "Medigree",
+      "contact" : [{
+        "name" : "Medigree",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://medigree.net"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:783aad66-b933-47c4-9916-c6686cec1dd6",
+        "timestamp" : "2022-08-24T21:33:39+00:00",
+        "total" : 10,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10219000",
+          "display" : "Tablet"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10223000",
+          "display" : "Orodispersible tablet"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10226000",
+          "display" : "Prolonged-release tablet"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10228000",
+          "display" : "Chewable tablet"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10220000",
+          "display" : "Coated tablet"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10221000",
+          "display" : "Film-coated tablet"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "12100",
+          "display" : "Capsule"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10210000",
+          "display" : "Capsule, hard"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10211000",
+          "display" : "Capsule, soft"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10214000",
+          "display" : "Chewable capsule, soft"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "substance-ontology-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-substance-ontology-cs.html\">Substance Ontology Code System v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-substance-ontology-cs.html\"><code>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-20053000\"> </a>  <a href=\"CodeSystem-substance-ontology-cs.html#substance-ontology-cs-20053000\">20053000</a></td><td>Amlodipine</td><td>Amlodipine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-10220XXX\"> </a>  <a href=\"CodeSystem-substance-ontology-cs.html#substance-ontology-cs-10220XXX\">10220XXX</a></td><td>Amlodipine Besilate</td><td>Amlodipine Besilate</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-10220XXX1\"> </a>  <a href=\"CodeSystem-substance-ontology-cs.html#substance-ontology-cs-10220XXX1\">10220XXX1</a></td><td>Amlodipine Mesilate</td><td>Amlodipine Mesilate</td></tr></table></div>"
+      },
+      "url" : "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
+      "version" : "0.1.0",
+      "name" : "SubstanceOntologyVS",
+      "title" : "Substance ontology Value Set",
+      "status" : "active",
+      "date" : "2022-08-24T21:33:25+00:00",
+      "publisher" : "Medigree",
+      "contact" : [{
+        "name" : "Medigree",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://medigree.net"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:883dae35-acfa-4c93-bad3-a5ef1c8bfca4",
+        "timestamp" : "2022-08-24T21:33:40+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+          "code" : "20053000",
+          "display" : "Amlodipine"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+          "code" : "10220XXX",
+          "display" : "Amlodipine Besilate"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+          "code" : "10220XXX1",
+          "display" : "Amlodipine Mesilate"
+        }]
+      }
+    }
+  }]
+}
