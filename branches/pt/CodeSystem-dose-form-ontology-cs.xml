@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="dose-form-ontology-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td/></tr></table><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style="white-space:nowrap">20053000<a name="dose-form-ontology-cs-20053000"> </a></td><td>Oral use</td><td>Oral Use</td><td>10220XXX, 10220000</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  10220XXX<a name="dose-form-ontology-cs-10220XXX"> </a></td><td>Capsule</td><td>Capsule</td><td/><td>20053000</td></tr><tr><td>2</td><td style="white-space:nowrap">  10220000<a name="dose-form-ontology-cs-10220000"> </a></td><td>Tablet</td><td>Tablet</td><td>10318000</td><td>20053000</td></tr><tr><td>3</td><td style="white-space:nowrap">    10318000<a name="dose-form-ontology-cs-10318000"> </a></td><td>Sublingual tablet</td><td>Sublingual tablet</td><td/><td>10220000</td></tr></table></div>
+  </text>
+  <url value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+  <version value="0.1.0"/>
+  <name value="DoseFormOntologyCS"/>
+  <title value="Dose Form Ontology Code System"/>
+  <status value="active"/>
+  <date value="2022-08-24T21:34:08+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <property>
+    <code value="child"/>
+    <uri value="http://hl7.org/fhir/concept-properties#child"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="parent"/>
+    <uri value="http://hl7.org/fhir/concept-properties#parent"/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="20053000"/>
+    <display value="Oral use"/>
+    <definition value="Oral Use"/>
+    <property>
+      <code value="child"/>
+      <valueCode value="10220XXX"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="10220000"/>
+    </property>
+    <concept>
+      <code value="10220XXX"/>
+      <display value="Capsule"/>
+      <definition value="Capsule"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="20053000"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="10220000"/>
+      <display value="Tablet"/>
+      <definition value="Tablet"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="20053000"/>
+      </property>
+      <property>
+        <code value="child"/>
+        <valueCode value="10318000"/>
+      </property>
+      <concept>
+        <code value="10318000"/>
+        <display value="Sublingual tablet"/>
+        <definition value="Sublingual tablet"/>
+        <property>
+          <code value="parent"/>
+          <valueCode value="10220000"/>
+        </property>
+      </concept>
+    </concept>
+  </concept>
+</CodeSystem>

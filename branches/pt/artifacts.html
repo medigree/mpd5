@@ -129,16 +129,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#1">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#2">Structures: Extension Definitions</a>
+         <a href="#2">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#3">Terminology: Value Sets</a>
+         <a href="#3">Terminology: Code Systems</a>
       </li>
       <li>
-         <a href="#4">Terminology: Code Systems</a>
-      </li>
-      <li>
-         <a href="#5">Example: Example Instances</a>
+         <a href="#4">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -164,49 +161,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>IdentifiableMedication</p>
 </td>
             </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-PTCNPEM.html"
-                     title="StructureDefinition/PTCNPEM">PT CNPEM  Profile</a>
-               </td>
-               <td>
-<p>PT CNPEM  Profile</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-PTPackagedMedicinalProduct.html"
-                     title="StructureDefinition/PTPackagedMedicinalProduct">PackagedMedicinalProduct Profile</a>
-               </td>
-               <td>
-<p>PackagedMedicinalProduct  Profile</p>
-</td>
-            </tr>
          </tbody>
       </table>
    </p>
    <a name="2"> </a>
-   <h3>Structures: Extension Definitions </h3>
-   <p>
-    <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-package-size.html"
-                     title="StructureDefinition/package-size">PackageSize</a>
-               </td>
-               <td>
-<p>Package size</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="3"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide</p>
@@ -217,8 +175,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-dose-form-ontology-cs.html"
-                     title="ValueSet/dose-form-ontology-cs">Dose Form ontology Value Set</a>
+                  <a href="ValueSet-dose-form-ontology-vs.html"
+                     title="ValueSet/dose-form-ontology-vs">Dose Form ontology Value Set</a>
                </td>
             </tr>
             <tr>
@@ -230,7 +188,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="4"> </a>
+   <a name="3"> </a>
    <h3>Terminology: Code Systems </h3>
    <p>
     <p>These define new code systems used by systems conforming to this implementation guide</p>
@@ -241,68 +199,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-edqm-doseform-ont-cs.html"
-                     title="CodeSystem/edqm-doseform-ont-cs">Dose Form Ontology Code System</a>
+                  <a href="CodeSystem-dose-form-ontology-cs.html"
+                     title="CodeSystem/dose-form-ontology-cs">Dose Form Ontology Code System</a>
                </td>
-               <td>
-
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="CodeSystem-edqm-route-cs.html" title="CodeSystem/edqm-route-cs">Dose Form Ontology Code System</a>
-               </td>
-               <td>
-
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="CodeSystem-pt-doseform-cs.html" title="CodeSystem/pt-doseform-cs">Lymph node code system</a>
-               </td>
-               <td>
-<p>Lymph node terms that could not be found in standard sources such as SNOMED CT.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="CodeSystem-pt-ingredient-item-cs.html"
-                     title="CodeSystem/pt-ingredient-item-cs">PTINGITEMCS</a>
-               </td>
-               <td>
-
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="CodeSystem-pt-ingredient-type-cs.html"
-                     title="CodeSystem/pt-ingredient-type-cs">PTINGTYPECS</a>
-               </td>
-               <td>
-
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="CodeSystem-pt-route-cs.html" title="CodeSystem/pt-route-cs">Lymph node code system</a>
-               </td>
-               <td>
-<p>Lymph node terms that could not be found in standard sources such as SNOMED CT.</p>
-</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="CodeSystem-substance-ontology-cs.html"
                      title="CodeSystem/substance-ontology-cs">Substance Ontology Code System</a>
                </td>
-               <td>
-
-</td>
             </tr>
          </tbody>
       </table>
    </p>
-   <a name="5"> </a>
+   <a name="4"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
@@ -343,7 +253,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">Medigree</a>.  Package medigree.fhir.mpd5#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot1</a>. Generated <span title="Wed, Aug 24, 2022 21:33+0000">2022-08-24</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">Medigree</a>.  Package medigree.fhir.mpd5#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot1</a>. Generated <span title="Wed, Aug 24, 2022 21:34+0000">2022-08-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
