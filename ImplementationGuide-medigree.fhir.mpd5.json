@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "MPD5",
   "status": "draft",
-  "date": "2022-08-24T21:33:25+00:00",
+  "date": "2022-08-24T21:34:08+00:00",
   "publisher": "Medigree",
   "contact": [
     {
@@ -55,53 +55,11 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/PTCNPEM"
-        },
-        "name": "PT CNPEM  Profile",
-        "description": "PT CNPEM  Profile",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/PTPackagedMedicinalProduct"
-        },
-        "name": "PackagedMedicinalProduct Profile",
-        "description": "PackagedMedicinalProduct  Profile",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/package-size"
-        },
-        "name": "PackageSize",
-        "description": "Package size",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "ValueSet/dose-form-ontology-cs"
+          "reference": "ValueSet/dose-form-ontology-vs"
         },
         "name": "Dose Form ontology Value Set",
         "exampleBoolean": false
@@ -127,76 +85,9 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/edqm-doseform-ont-cs"
+          "reference": "CodeSystem/dose-form-ontology-cs"
         },
         "name": "Dose Form Ontology Code System",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/edqm-route-cs"
-        },
-        "name": "Dose Form Ontology Code System",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/pt-doseform-cs"
-        },
-        "name": "Lymph node code system",
-        "description": "Lymph node terms that could not be found in standard sources such as SNOMED CT.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/pt-ingredient-item-cs"
-        },
-        "name": "PTINGITEMCS",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/pt-ingredient-type-cs"
-        },
-        "name": "PTINGTYPECS",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/pt-route-cs"
-        },
-        "name": "Lymph node code system",
-        "description": "Lymph node terms that could not be found in standard sources such as SNOMED CT.",
         "exampleBoolean": false
       },
       {

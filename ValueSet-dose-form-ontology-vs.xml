@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="dose-form-ontology-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-dose-form-ontology-cs.html"><code>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-vs"/>
+  <version value="0.1.0"/>
+  <name value="DoseFormOntologyVS"/>
+  <title value="Dose Form ontology Value Set"/>
+  <status value="active"/>
+  <date value="2022-08-24T21:34:08+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+    </include>
+  </compose>
+</ValueSet>

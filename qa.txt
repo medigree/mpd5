@@ -1,61 +1,30 @@
 ﻿MPD5 : Validation Results
 =========================================
 
-err = 1, warn = 16, info = 5
+err = 0, warn = 5, info = 2
 IG Publisher Version: 1.1.128
-Generated Wed Aug 24 21:33:57 UTC 2022. FHIR version 5.0.0-snapshot1 for medigree.fhir.mpd5#0.1.0 (canonical = http://medigree.net/fhir/mpd5)
- Build Errors : 0 / 8 / 0
- /github/workspace/fsh-generated/resources/CodeSystem-edqm-doseform-ont-cs : 1 / 1 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-edqm-route-cs : 0 / 1 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-pt-doseform-cs : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-pt-ingredient-item-cs : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-pt-ingredient-type-cs : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-pt-route-cs : 0 / 0 / 2
+Generated Wed Aug 24 21:34:37 UTC 2022. FHIR version 5.0.0-snapshot1 for medigree.fhir.mpd5#0.1.0 (canonical = http://medigree.net/fhir/mpd5)
+ Build Errors : 0 / 5 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-dose-form-ontology-cs : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-substance-ontology-cs : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-medigree.fhir.mpd5 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationKnowledge-Med1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-IdentifiableMedication : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-PTCNPEM : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-PTPackagedMedicinalProduct : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-package-size : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/ValueSet-dose-form-ontology-cs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-dose-form-ontology-vs : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-substance-ontology-vs : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/dose-form-ontology-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/dose-form-ontology-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/substance-ontology-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/edqm-doseform-ont-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/edqm-route-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/pt-ingredient-item-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/pt-ingredient-type-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/dose-form-ontology-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/substance-ontology-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/Med1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-== fsh-generated/resources/CodeSystem-edqm-doseform-ont-cs.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: edqm-doseform-ont-cs/http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs
-WARNING: CodeSystem/edqm-doseform-ont-cs: CodeSystem: Rule cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-INFORMATION: CodeSystem/edqm-doseform-ont-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-== fsh-generated/resources/CodeSystem-edqm-route-cs.json ==
-WARNING: CodeSystem/edqm-route-cs: CodeSystem: Rule cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-INFORMATION: CodeSystem/edqm-route-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-== fsh-generated/resources/CodeSystem-pt-doseform-cs.json ==
-INFORMATION: CodeSystem/pt-doseform-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-== fsh-generated/resources/CodeSystem-pt-ingredient-item-cs.json ==
-WARNING: CodeSystem/pt-ingredient-item-cs: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-== fsh-generated/resources/CodeSystem-pt-ingredient-type-cs.json ==
-WARNING: CodeSystem/pt-ingredient-type-cs: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-== fsh-generated/resources/CodeSystem-pt-route-cs.json ==
-INFORMATION: CodeSystem/pt-route-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-dose-form-ontology-cs.json ==
+INFORMATION: CodeSystem/dose-form-ontology-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-substance-ontology-cs.json ==
 INFORMATION: CodeSystem/substance-ontology-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/ImplementationGuide-medigree.fhir.mpd5.json ==
 == fsh-generated/resources/MedicationKnowledge-Med1.json ==
 == fsh-generated/resources/StructureDefinition-IdentifiableMedication.json ==
-== fsh-generated/resources/StructureDefinition-PTCNPEM.json ==
-WARNING: StructureDefinition.where(url = 'http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-PTPackagedMedicinalProduct.json ==
-WARNING: StructureDefinition.where(url = 'http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-package-size.json ==
-WARNING: StructureDefinition.where(url = 'http://medigree.net/fhir/mpd5/StructureDefinition/package-size'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/ValueSet-dose-form-ontology-cs.json ==
-WARNING: ValueSet/dose-form-ontology-cs: ValueSet: Rule cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ValueSet-dose-form-ontology-vs.json ==
 == fsh-generated/resources/ValueSet-substance-ontology-vs.json ==
