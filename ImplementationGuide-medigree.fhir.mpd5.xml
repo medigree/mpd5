@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="MPD5"/>
   <status value="draft"/>
-  <date value="2022-08-24T19:19:15+00:00"/>
+  <date value="2022-08-24T21:33:25+00:00"/>
   <publisher value="Medigree"/>
   <contact>
     <name value="Medigree"/>
@@ -40,10 +40,43 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PTCNPEM"/>
+      </reference>
+      <name value="PT CNPEM  Profile"/>
+      <description value="PT CNPEM  Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PTPackagedMedicinalProduct"/>
+      </reference>
+      <name value="PackagedMedicinalProduct Profile"/>
+      <description value="PackagedMedicinalProduct  Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/package-size"/>
+      </reference>
+      <name value="PackageSize"/>
+      <description value="Package size"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/dose-form-ontology-vs"/>
+        <reference value="ValueSet/dose-form-ontology-cs"/>
       </reference>
       <name value="Dose Form ontology Value Set"/>
       <exampleBoolean value="false"/>
@@ -63,9 +96,61 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/dose-form-ontology-cs"/>
+        <reference value="CodeSystem/edqm-doseform-ont-cs"/>
       </reference>
       <name value="Dose Form Ontology Code System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/edqm-route-cs"/>
+      </reference>
+      <name value="Dose Form Ontology Code System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pt-doseform-cs"/>
+      </reference>
+      <name value="Lymph node code system"/>
+      <description value="Lymph node terms that could not be found in standard sources such as SNOMED CT."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pt-ingredient-item-cs"/>
+      </reference>
+      <name value="PTINGITEMCS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pt-ingredient-type-cs"/>
+      </reference>
+      <name value="PTINGTYPECS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pt-route-cs"/>
+      </reference>
+      <name value="Lymph node code system"/>
+      <description value="Lymph node terms that could not be found in standard sources such as SNOMED CT."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

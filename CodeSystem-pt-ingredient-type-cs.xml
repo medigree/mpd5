@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="pt-ingredient-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://terminology.hl7.org/CodeSystem/lymphnodes defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="pt-ingredient-type-cs-1"> </a></td><td>Active Principle</td><td>Active Principle</td></tr></table></div>
+  </text>
+  <url value="http://terminology.hl7.org/CodeSystem/lymphnodes"/>
+  <version value="0.1.0"/>
+  <name value="PTINGTYPECS"/>
+  <status value="active"/>
+  <date value="2022-08-24T21:33:25+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="1"/>
+    <display value="Active Principle"/>
+    <definition value="Active Principle"/>
+  </concept>
+</CodeSystem>

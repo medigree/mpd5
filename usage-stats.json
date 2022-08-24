@@ -2,12 +2,28 @@
   "package": "medigree.fhir.mpd5",
   "version": "0.1.0",
   "fhirVersion": "5.0.0-snapshot1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://medigree.net/fhir/mpd5/StructureDefinition/package-size",
+      "title": "PackageSize",
+      "types": [
+        "Quantity"
+      ]
+    }
+  ],
   "profiles": {
     "MedicationKnowledge": [
       {
         "url": "http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication",
         "title": "IdentifiableMedication"
+      },
+      {
+        "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM",
+        "title": "PT CNPEM  Profile"
+      },
+      {
+        "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct",
+        "title": "PackagedMedicinalProduct Profile"
       }
     ]
   },
@@ -27,6 +43,9 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
     ],
@@ -36,8 +55,14 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
     ],
+    "http://hl7.org/fhir/build/StructureDefinition/no-binding": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://medigree.net/fhir/mpd5/StructureDefinition/package-size": [
+      "MedicationKnowledge.packaging"
     ]
   }
 }

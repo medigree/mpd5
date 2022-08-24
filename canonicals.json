@@ -1,10 +1,10 @@
 [
   {
-    "id": "dose-form-ontology-cs",
+    "id": "edqm-doseform-ont-cs",
     "type": "CodeSystem",
     "url": "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
     "version": "0.1.0",
-    "name": "DoseFormOntologyCS"
+    "name": "EDQM-DOSEFORM-ONT-CS"
   },
   {
     "id": "substance-ontology-cs",
@@ -28,11 +28,32 @@
     "name": "IdentifiableMedication"
   },
   {
-    "id": "dose-form-ontology-vs",
-    "type": "ValueSet",
-    "url": "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-vs",
+    "id": "PTCNPEM",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM",
     "version": "0.1.0",
-    "name": "DoseFormOntologyVS"
+    "name": "PTCNPEM"
+  },
+  {
+    "id": "PTPackagedMedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct",
+    "version": "0.1.0",
+    "name": "PTPackagedMedicinalProduct"
+  },
+  {
+    "id": "package-size",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/package-size",
+    "version": "0.1.0",
+    "name": "PackageSize"
+  },
+  {
+    "id": "dose-form-ontology-cs",
+    "type": "ValueSet",
+    "url": "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs",
+    "version": "0.1.0",
+    "name": "EDQM-DOSEFORM-ONT-VS"
   },
   {
     "id": "substance-ontology-vs",
@@ -40,5 +61,40 @@
     "url": "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
     "version": "0.1.0",
     "name": "SubstanceOntologyVS"
+  },
+  {
+    "id": "pt-ingredient-item-cs",
+    "type": "CodeSystem",
+    "url": "http://terminology.hl7.org/CodeSystem/lymphnodes",
+    "version": "0.1.0",
+    "name": "PTINGITEMCS"
+  },
+  {
+    "id": "pt-ingredient-type-cs",
+    "type": "CodeSystem",
+    "url": "http://terminology.hl7.org/CodeSystem/lymphnodes",
+    "version": "0.1.0",
+    "name": "PTINGTYPECS"
+  },
+  {
+    "id": "edqm-route-cs",
+    "type": "CodeSystem",
+    "url": "http://www.edqm.eu/routes",
+    "version": "0.1.0",
+    "name": "EDQM-ROUTE-CS"
+  },
+  {
+    "id": "pt-doseform-cs",
+    "type": "CodeSystem",
+    "url": "http://www.infarmed.pt/dose-forms",
+    "version": "0.1.0",
+    "name": "PTDFCS"
+  },
+  {
+    "id": "pt-route-cs",
+    "type": "CodeSystem",
+    "url": "http://www.infarmed.pt/routes",
+    "version": "0.1.0",
+    "name": "PTROUTECS"
   }
 ]
