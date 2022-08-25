@@ -1,15 +1,7 @@
-CodeSystem: PTDFCS
+CodeSystem: PTDoseFormCS
 Id:         pt-doseform-cs
-Title:     "Lymph node code system"
-Description: "Lymph node terms that could not be found in standard sources such as SNOMED CT."
-// For information about creating a code system in the `terminology.hl7.org` namespace, see
-// this documentation on the UTG process: https://confluence.hl7.org/display/VMAH/Vocabulary+Maintenance+at+HL7
-// You can also create a URL local to your Implementation Guide like `http://hl7.org/fhir/uv/your-ig/CodeSystem/lymphnodes`
-// The "Terminology" stream on chat.fhir.org (free registration required) is a good place to ask
-// questions about how to handle this for your specific use case (direct link: https://bit.ly/terminology-fhir-chat)
-* ^url =  http://www.infarmed.pt/dose-forms
-// Spacing layout over three lines per term is optional, for clarity
-// The definition (second text string) is optional
+Title:     "Dose form code system"
+Description: "Dose form code system."
 * #271
     "Comprimido"
     "Comprimido"
@@ -20,28 +12,20 @@ Description: "Lymph node terms that could not be found in standard sources such 
     "Comprimido revestido por película"
     "Comprimido revestido por película"
 
-CodeSystem: PTROUTECS
+CodeSystem: PTRouteCS
 Id:         pt-route-cs
-Title:     "Lymph node code system"
-Description: "Lymph node terms that could not be found in standard sources such as SNOMED CT."
-// For information about creating a code system in the `terminology.hl7.org` namespace, see
-// this documentation on the UTG process: https://confluence.hl7.org/display/VMAH/Vocabulary+Maintenance+at+HL7
-// You can also create a URL local to your Implementation Guide like `http://hl7.org/fhir/uv/your-ig/CodeSystem/lymphnodes`
-// The "Terminology" stream on chat.fhir.org (free registration required) is a good place to ask
-// questions about how to handle this for your specific use case (direct link: https://bit.ly/terminology-fhir-chat)
-* ^url =  http://www.infarmed.pt/routes
-// Spacing layout over three lines per term is optional, for clarity
-// The definition (second text string) is optional
+Title:     "Route of administration code system"
+Description: "Route of administration code system."
 * #48
     "Via Oral"
     "Via Oral"
 
 
-CodeSystem: PTINGITEMCS
+CodeSystem: PTSubstanceCS
 Id:         pt-ingredient-item-cs
 Title:     ""
 Description: ""
-* ^url =  http://terminology.hl7.org/CodeSystem/lymphnodes
+
 
 * ^property[+].code = #child
 * ^property[=].type = #code
@@ -88,11 +72,10 @@ Description: ""
   "Perindopril"
   "Perindopril"
 
-CodeSystem: PTINGTYPECS
-Id:         pt-ingredient-type-cs
+CodeSystem: PTIngredientRoleCS
+Id:         pt-ingredient-role-cs
 Title:     ""
 Description: ""
-* ^url =  http://terminology.hl7.org/CodeSystem/lymphnodes
 
 * #1
     "Active Principle"

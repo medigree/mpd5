@@ -18,7 +18,6 @@ Description: "Product Types"
 * ^property[=].uri = "https://medigree.github.io/mpd5/concept-producttype-country"
 
 
-
 * #IDMP_PhP
     "IDMP Pharmaceutical Product"
 * #IDMP_MP
@@ -28,7 +27,7 @@ Description: "Product Types"
 * #BE_MP
     "Belgian Medicinal Product"
   * ^property.code = #country
-  * ^property.valueCode = "BE"
+  * ^property.valueCode = #BE
 
 * #BE_VMP "Virtual Medicinal Product"
   * ^property.code = #template
@@ -36,16 +35,20 @@ Description: "Product Types"
   * ^property.code = #profile\
   * ^property.valueString = "https://medigree.github.io/mpd5/StructureDefinition-be-vmp"
   * ^property.code = #country
-  * ^property.valueCode = "BE"
+  * ^property.valueCode = #BE
 
 * #BE_AMP "Actual Medicinal Product"
   * ^property.code = #template
   * ^property.valueString = "{\"<>\":\"div\",\"id\":\"${synonym}\",\"html\":[{\"<>\":\"table\",\"class\":\"table table-striped table-sm\",\"html\":[{\"<>\":\"thead\",\"html\":[{\"<>\":\"tr\",\"html\":[{\"<>\":\"th\",\"scope\":\"col\",\"html\":\"${resourceType}\"},{\"<>\":\"th\",\"scope\":\"col\",\"html\":\"\"}]}]},{\"<>\":\"tbody\",\"html\":[{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"style\":\"width: 90px;\",\"scope\":\"row\",\"html\":\"Name\"},{\"<>\":\"td\",\"html\":\"${synonym}\"}]},{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"scope\":\"row\",\"html\":\"ID\"},{\"<>\":\"td\",\"html\":\"${id}\"}]},{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"scope\":\"row\",\"html\":\"Status\"},{\"<>\":\"td\",\"html\":\"${status}\"}]}]}]}]}"
-  * ^property.code = #profile\
+  * ^property.code = #profile
   * ^property.valueString = "https://medigree.github.io/mpd5/StructureDefinition-be-amp"
   * ^property.code = #country
-  * ^property.valueCode = "BE"
+  * ^property.valueCode = #BE
 
+
+* #CNPEM "CNPEM"
+  * ^property.code = #country
+  * ^property.valueCode = #PT
 
 * #ePI "ePI"
   * ^property.code = #template
@@ -56,6 +59,6 @@ ValueSet: ProductTypeVS
 Id: prod-type-vs
 Title: "Product Types Value Set"
 Description: "Product Types Value Set."
-* ^url =  https://medigree.github.io/mpd/ValueSet/prod-type-cs
+* ^url =  https://medigree.github.io/mpd5/ValueSet/prod-type-cs
 * include codes from system ProductTypeCS
 
