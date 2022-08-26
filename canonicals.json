@@ -21,6 +21,13 @@
     "name": "MPD5"
   },
   {
+    "id": "questionnaire-ee",
+    "type": "Questionnaire",
+    "url": "http://medigree.net/fhir/mpd5/Questionnaire/questionnaire-ee",
+    "version": "0.1.0",
+    "name": "questionnaire-ee"
+  },
+  {
     "id": "IdentifiableMedication",
     "type": "StructureDefinition",
     "url": "http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication",
@@ -40,5 +47,12 @@
     "url": "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
     "version": "0.1.0",
     "name": "SubstanceOntologyVS"
+  },
+  {
+    "id": "sp-mpd-name-country",
+    "type": "SearchParameter",
+    "url": "https://medigree.github.io/mpd/SearchParameter/sp-mpd-name-country",
+    "version": "0.1.0",
+    "name": "MPNameCountry"
   }
 ]
