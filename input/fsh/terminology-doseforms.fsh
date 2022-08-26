@@ -1,4 +1,4 @@
-CodeSystem: EDQM-DOSEFORM-ONT-CS
+CodeSystem: EDQM_DOSEFORM_ONT_CS
 Id:         edqm-doseform-ont-cs
 Title:     "Dose Form Ontology Code System"
 
@@ -86,7 +86,7 @@ Title:     "Dose Form Ontology Code System"
     * ^property[+].code = #parent
     * ^property[=].valueCode = #12100
 
-CodeSystem: EDQM-ROUTE-CS
+CodeSystem: EDQM_ROUTE_CS
 Id:         edqm-route-cs
 Title:     "Dose Form Ontology Code System"
 
@@ -111,7 +111,7 @@ Title:     "Dose Form Ontology Code System"
 
 
 
-ValueSet: EDQM-DOSEFORM-ONT-VS
+ValueSet: EDQM_DOSEFORM_ONT_VS
 Id: dose-form-ontology-cs
 Title: "Dose Form ontology Value Set"
-* include codes from system EDQM-DOSEFORM-ONT-CS
+* include codes from system EDQM_DOSEFORM_ONT_CS

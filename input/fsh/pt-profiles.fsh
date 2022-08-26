@@ -14,16 +14,16 @@ Description: "PT CNPEM Profile"
 
 * intendedJurisdiction 1..* MS
 * name 1..* MS
-* definitional.doseForm 1..1 MS
-* definitional.doseForm.coding.system 1..1 MS
+// * definitional.doseForm 1..1 MS
+// * definitional.doseForm.coding.system 1..1 MS
 * definitional.doseForm.coding ^slicing.discriminator.type = #pattern
 * definitional.doseForm.coding ^slicing.discriminator.path = "system"
 * definitional.doseForm.coding ^slicing.rules = #open
 * definitional.doseForm.coding contains
-    EDQM 0..1 MS and
-    Other 0..1 MS 
-* definitional.doseForm.coding[EDQM].system = "http://www.edqm.eu/dose-forms"
-* definitional.doseForm.coding[Other].system = "http://www.infarmed.pt/dose-forms"
+     EDQM-DF 0..1 MS and
+     PT-DF 0..1 MS 
+* definitional.doseForm.coding[EDQM-DF].system = Canonical(EDQM_DOSEFORM_ONT_CS)
+* definitional.doseForm.coding[PT-DF].system = Canonical(PTDoseFormCS)
 * definitional.ingredient 0..* MS
 * definitional.ingredient.item 1..1 MS
 * definitional.ingredient.item.concept 1..1 MS
@@ -32,12 +32,12 @@ Description: "PT CNPEM Profile"
 * definitional.ingredient.item.concept.coding ^slicing.discriminator.path = "system"
 * definitional.ingredient.item.concept.coding ^slicing.rules = #open
 * definitional.ingredient.item.concept.coding contains
-   EDQM 0..1 MS and
-   Other 0..1 MS 
-* definitional.ingredient.item.concept.coding[EDQM].system = "http://www.edqm.eu/dose-forms"
-* definitional.ingredient.item.concept.coding[Other].system = "http://www.infarmed.pt/dose-forms"
+    SMS 0..1 MS and
+    PT-Subs 0..1 MS 
+* definitional.ingredient.item.concept.coding[SMS].system = Canonical(SubstanceOntologyCS)
+* definitional.ingredient.item.concept.coding[PT-Subs].system = Canonical(PTSubstanceCS)
 * definitional.ingredient.type 1..1 MS
-* definitional.ingredient.strength[x] 1..1 MS
+//* definitional.ingredient.strength 1..1 MS
 
 * packaging.extension contains
    PackageSize named packageSize 1..1
@@ -80,10 +80,10 @@ Description: "PackagedMedicinalProduct  Profile"
 * definitional.doseForm.coding ^slicing.discriminator.path = "system"
 * definitional.doseForm.coding ^slicing.rules = #open
 * definitional.doseForm.coding contains
-    EDQM 0..1 MS and
-    Other 0..1 MS 
-* definitional.doseForm.coding[EDQM].system = "http://www.edqm.eu/dose-forms"
-* definitional.doseForm.coding[Other].system = "http://www.infarmed.pt/dose-forms"
+    EDQM-DF 0..1 MS and
+    PT-DF 0..1 MS 
+* definitional.doseForm.coding[EDQM-DF].system = Canonical(EDQM_DOSEFORM_ONT_CS)
+* definitional.doseForm.coding[PT-DF].system = Canonical(PTDoseFormCS)
 * definitional.ingredient 0..* MS
 * definitional.ingredient.item 1..1 MS
 
@@ -96,11 +96,10 @@ Description: "PackagedMedicinalProduct  Profile"
 * definitional.intendedRoute  ^slicing.discriminator.path = "coding.system"
 * definitional.intendedRoute  ^slicing.rules = #open
 * definitional.intendedRoute  contains
-    EDQM 0..* MS and
-    Other 0..* MS 
-* definitional.intendedRoute[EDQM].coding.system = "http://www.edqm.eu/routes"
-* definitional.intendedRoute[Other].coding.system = "http://www.infarmed.pt/routes"
-
+    EDQM-RoA 0..* MS and
+    PT-RoA 0..* MS
+* definitional.intendedRoute[EDQM-RoA].coding.system = "http://www.edqm.eu/routes"
+* definitional.intendedRoute[PT-RoA].coding.system = Canonical(PTRouteCS)
 
 * packaging.extension contains
    PackageSize named packageSize 1..1
