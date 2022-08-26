@@ -72,7 +72,53 @@ Title:    "EE MPD Product"
     * insert Question(,name,name,string,true,true)
 * insert Question(,adminproduct,AdministrableProduct,group,false,true)
 * item[=]
+  * insert Question(,adminDoseForm,adminDoseForm,group,false,true)
+  * insert Question(,unitOfPresentation,unitOfPresentation,group,false,true)
+  * insert Question(,producedForm,producedForm,coding,false,true)
+  * insert Question(,routeOfAdministration,routeOfAdministration,coding,false,true)
+
+
 * insert Question(,ingredient,Ingredient,group,false,true)
 * item[=]
+  * insert Question(,role,Role,coding,false,true)
+  * insert Question(,substance,Substance,group,false,true)
+  * item[=]
+    * insert Question(,strength,strength,group,false,true)
+    * item[=]
+      * insert Question(,presentation,presentation,group,false,true)
+      * item[=]
+        * insert Question(,numerator,numerator,string,false,true)
+        * item[=]
+          * insert Question(,numerator,comparator,string,false,true)
+          * item[=]
+        * insert Question(,denominator,denominator,string,false,true)
+    * insert Question(,refStrength,Ref Strength,group,false,true)
+    * item[=]
+      * insert Question(,substance,substance,group,false,true)
+      * item[=]
+        * insert Question(,strength,strength,group,false,true)
+        * item[=]
+          * insert Question(,numerator,numerator,group,false,true)
+          * item[=]
+            * insert Question(,numerator,comparator,string,false,true)
+            * item[=]
+          * insert Question(,denominator,denominator,string,false,true)
+
 * insert Question(,packagedprod,packagedProduct,group,false,true)
 * item[=]
+  * insert Question(,containedItemQuantity,containedItemQuantity,coding,false,true)
+  * insert Question(,identifier,identifier,string,false,true)
+  * insert Question(,description,description,string,false,true)
+  * item[=]
+    * insert Question(,language,language,string,false,true)
+  * insert Question(,mktStatus,mktStatus,group,false,true)
+  * item[=]
+    * insert Question(,country,country,string,false,true)
+    * insert Question(,status,status,string,false,true)
+  * insert Question(,package,package,group,false,true)
+  * item[=]
+    * insert Question(,type,type,string,false,true)
+    * insert Question(,material,material,string,false,true)
+    * insert Question(,containedItem,containedItem,group,false,true)
+    * item[=]
+      * insert Question(,amount,amount,group,false,true)
