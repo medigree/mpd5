@@ -1,0 +1,168 @@
+@startuml
+hide stereotype
+hide circle
+skinparam linetype polyline
+skinparam shadowing false
+
+
+!pragma layout smetana
+
+
+
+skinparam class<<S>> {
+ BorderColor DarkSlateGray
+ BackgroundColor WhiteSmoke
+ HeaderBackgroundColor #909090
+}
+
+skinparam class<<VMPP>> {
+ BorderColor #997700
+ BackgroundColor BUSINESS
+ HeaderBackgroundColor #ffcc33
+}
+
+skinparam class<<PhP>> {
+ BorderColor #505090
+ BackgroundColor APPLICATION
+ HeaderBackgroundColor SkyBlue
+}
+
+skinparam class<<Oth>> {
+ BorderColor #99770055
+ BackgroundColor #FFFFE055
+ HeaderBackgroundColor #ffDD7344
+ HeaderFontColor 	#ffcc3355
+}
+
+skinparam class<<MP>> {
+ BorderColor DarkGreen
+ BackgroundColor PHYSICAL
+ HeaderBackgroundColor LimeGreen
+}
+
+
+skinparam class<<PMP>> {
+ BorderColor DarkRed
+ BackgroundColor MistyRose
+ HeaderBackgroundColor #f09090
+}
+
+skinparam class<<VMPG>> {
+ BorderColor DarkSlateGrey
+ BackgroundColor #DEE
+ HeaderBackgroundColor #A0B0B0
+}
+
+
+
+  package "   EE Products    " as MR #E9EAE0 {
+
+    class "**RegulatoryFHIR**" as VTM<<Oth>> {
+' e.g. amlodipine
+      |_ mpd
+        |_ __extension[AuthDoseForm]__   
+        |_ identifier
+        |_ domain
+        |_ status
+        |_ legalStatusOfSupply
+        |_ classification
+          |_ ema
+          |_ atc
+        |_ productName
+          |_ fullName
+          |_ nameParts 
+            |_ invented
+            |_ strength
+            |_ pharmDoseForm
+            |_ name 
+          |_ countryLanguage
+            |_ country
+            |_ language
+      |_ regAuth
+        |_ mktAuthNr
+        |_ type
+        |_ region
+        |_ status
+        |_ statusDate
+        |_ mktAuthHolder
+          |_ id
+          |_ name
+      |_ apd
+        |_ adminDoseForm
+        |_ unitOfPresentation
+        |_ producedForm
+        |_ routeOfAdministration
+      |_ ingredient
+        |_ role
+        |_ substance
+          |_ strength
+            |_ presentationRation
+              |_ numerator
+                |_ comparator
+                  |_ extension[comparator]  
+              |_ denominator
+          |_ refStrength
+            |_ substance
+              |_strengthRatio
+                |_ numerator
+                  |_ comparator
+                  |_ extension[comparator]  
+                |_ denominator
+        |_ packagedProduct
+          |_ extension[containedItemQuantity__??__]   
+            |_ identifier
+          |_ description
+            |_ extension[__language__]
+          |_ mktStatus
+            |_ country
+            |_ status
+          |_ package
+            |_ type
+            |_ material
+            |_ containedItem
+              |_ amount
+    }
+
+
+    class "** CatProductFHIR **" as CP<<S>> {
+      --
+      |_ identifier
+        |_ mpid
+        |_ phpid
+        |_ pcid
+        |_ otherId
+      |_ domain
+      |_ status
+      |_ name 
+      |_ mah
+      |_ classification
+        |_ atc
+      |_ routeOfAdministration
+      |_ unitOfPresentation
+      |_ authPharmDoseForm
+      |_ admDoseForm
+      |_ composition
+        |_ ingredient
+          |_ role
+          |_ substance
+        |_ refStrength
+          |_ presentationStrength 
+            |_ numerator
+            |_ denominator
+          |_ concentrationStrength  
+            |_ numerator
+            |_ denominator
+      |_ package
+        |_ type
+        |_ size
+          |_ manufacturedItem
+            |_ unitOfPresentation
+            |_ itemQuantity
+            |_ manufacturedDoseForm
+        |_ subpackage            
+    }
+
+VTM  -r[hidden]-> CP: "                                   "
+
+}
+@enduml
