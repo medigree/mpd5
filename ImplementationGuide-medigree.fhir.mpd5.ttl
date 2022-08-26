@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "MPD5"];
   fhir:ImplementationGuide.title [ fhir:value "MPD 5"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-08-26T18:58:18+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-08-26T19:11:10+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Medigree"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
