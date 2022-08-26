@@ -1,5 +1,5 @@
 Estonia
 <figure>
-  {% include be-concepts.svg %}
-  <figcaption>Belgian SAM database (simplified)</figcaption>
+  {% include ee_product.svg %}
+  <figcaption>EE products - Regulatory (UFIS) and Clinical (MAL)</figcaption>
 </figure>
