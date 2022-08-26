@@ -3,7 +3,7 @@
 
 err = 980, warn = 348, info = 2918
 IG Publisher Version: 1.1.128
-Generated Fri Aug 26 18:33:41 UTC 2022. FHIR version 5.0.0-snapshot1 for medigree.fhir.mpd5#0.1.0 (canonical = http://medigree.net/fhir/mpd5)
+Generated Fri Aug 26 18:50:35 UTC 2022. FHIR version 5.0.0-snapshot1 for medigree.fhir.mpd5#0.1.0 (canonical = http://medigree.net/fhir/mpd5)
  Build Errors : 1 / 233 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-10mg-Tablet-EE-APD : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD : 0 / 0 / 4
@@ -4688,9 +4688,9 @@ WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[7].item[1].a
 ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[1].item[0]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
 ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[1].item[1]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
 ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[1].item[4]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
-ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[2]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
-ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[3]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
-ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[4]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
+ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[2].item[0]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
+ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[2].item[1]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
+ERROR: Questionnaire/questionnaire-ee: Questionnaire.item[4].item[4].item[2].item[0]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
 == fsh-generated/resources/RegulatedAuthorization-Agen-10mg-Tablet-EE-RA.json ==
 INFORMATION: RegulatedAuthorization/Agen-10mg-Tablet-EE-RA: RegulatedAuthorization.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/220000000060' is unknown so the code cannot be validated
 INFORMATION: RegulatedAuthorization/Agen-10mg-Tablet-EE-RA: RegulatedAuthorization.region[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/v1/lists/100000000002' is unknown so the code cannot be validated
