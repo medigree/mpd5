@@ -131,6 +131,8 @@ skinparam class<<VMPG>> {
         |_ phpid
         |_ pcid
         |_ otherId
+      |_ domain
+      |_ status
       |_ name 
       |_ mah
       |_ classification
