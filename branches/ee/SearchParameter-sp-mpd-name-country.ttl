@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/SearchParameter/sp-mpd-name-country> a fhir:SearchParameter;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "sp-mpd-name-country"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SearchParameter</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SearchParameter \"sp-mpd-name-country\" </p></div><p><b>url</b>: <code>https://medigree.github.io/mpd/SearchParameter/sp-mpd-name-country</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: MPNameCountry</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-05-05</p><p><b>publisher</b>: Medigree</p><p><b>contact</b>: Medigree: <a href=\"http://medigree.net\">http://medigree.net</a></p><p><b>description</b>: Search by product name country - i.e. the country to where a name applies</p><p><b>jurisdiction</b>: World <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (m49.htm#001)</span></p><p><b>purpose</b>: Search by Product name country</p><p><b>code</b>: name-country</p><p><b>base</b>: MedicinalProductDefinition</p><p><b>type</b>: token</p><p><b>expression</b>: MedicinalProductDefinition.name.countryLanguage.country</p><p><b>xpath</b>: f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country</p><p><b>xpathUsage</b>: normal</p></div>"
+  ];
+  fhir:SearchParameter.url [ fhir:value "https://medigree.github.io/mpd/SearchParameter/sp-mpd-name-country"];
+  fhir:SearchParameter.version [ fhir:value "0.1.0"];
+  fhir:SearchParameter.name [ fhir:value "MPNameCountry"];
+  fhir:SearchParameter.status [ fhir:value "active"];
+  fhir:SearchParameter.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:SearchParameter.date [ fhir:value "2022-05-05"^^xsd:date];
+  fhir:SearchParameter.publisher [ fhir:value "Medigree"];
+  fhir:SearchParameter.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Medigree" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://medigree.net" ]
+     ]
+  ];
+  fhir:SearchParameter.description [ fhir:value "Search by product name country - i.e. the country to where a name applies"];
+  fhir:SearchParameter.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:SearchParameter.purpose [ fhir:value "Search by Product name country"];
+  fhir:SearchParameter.code [ fhir:value "name-country"];
+  fhir:SearchParameter.base [
+     fhir:value "MedicinalProductDefinition";
+     fhir:index 0
+  ];
+  fhir:SearchParameter.type [ fhir:value "token"];
+  fhir:SearchParameter.expression [ fhir:value "MedicinalProductDefinition.name.countryLanguage.country"];
+  fhir:SearchParameter.xpath [ fhir:value "f:MedicinalProductDefinition/f:name/f:countryLanguage/f:country"];
+  fhir:SearchParameter.xpathUsage [ fhir:value "normal"] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/SearchParameter/sp-mpd-name-country.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
