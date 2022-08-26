@@ -58,7 +58,7 @@ skinparam class<<VMPG>> {
   package "   EE Products    " as MR #E9EAE0 {
 
     class "**RegulatoryFHIR**" as VTM<<Oth>> {
-' e.g. amlodipine
+      --
       |_ mpd
         |_ __extension[AuthDoseForm]__   
         |_ identifier
@@ -96,7 +96,7 @@ skinparam class<<VMPG>> {
         |_ role
         |_ substance
           |_ strength
-            |_ presentationRation
+            |_ presentation
               |_ numerator
                 |_ comparator
                   |_ extension[comparator]  
@@ -124,7 +124,7 @@ skinparam class<<VMPG>> {
     }
 
 
-    class "** CatProductFHIR **" as CP<<S>> {
+    class "** CatalogProductFHIR **" as CP<<S>> {
       --
       |_ identifier
         |_ mpid
