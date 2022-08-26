@@ -46,11 +46,11 @@ Description: "Product Types"
   * ^property.valueCode = #BE
 
 
-* #CNPEM "CNPEM"
+* #PT-CNPEM "PT-CNPEM"
   * ^property.code = #country
   * ^property.valueCode = #PT
 
-* #PT-PMP
+* #PT-PMP "PT-PMP"
   * ^property.code = #country
   * ^property.valueCode = #PT
 
