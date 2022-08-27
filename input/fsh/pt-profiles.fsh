@@ -21,7 +21,7 @@ Description: "PT CNPEM Profile"
 * definitional.doseForm.coding ^slicing.rules = #open
 * definitional.doseForm.coding contains
      EDQM-DF 0..1 MS and
-     PT-DF 0..1 MS 
+     PT-DF 1..1 MS 
 * definitional.doseForm.coding[EDQM-DF].system = Canonical(EDQM_DOSEFORM_ONT_CS)
 * definitional.doseForm.coding[PT-DF].system = Canonical(PTDoseFormCS)
 * definitional.ingredient 0..* MS
@@ -33,7 +33,7 @@ Description: "PT CNPEM Profile"
 * definitional.ingredient.item.concept.coding ^slicing.rules = #open
 * definitional.ingredient.item.concept.coding contains
     SMS 0..1 MS and
-    PT-Subs 0..1 MS 
+    PT-Subs 1..1 MS 
 * definitional.ingredient.item.concept.coding[SMS].system = Canonical(SubstanceOntologyCS)
 * definitional.ingredient.item.concept.coding[PT-Subs].system = Canonical(PTSubstanceCS)
 * definitional.ingredient.type 1..1 MS

@@ -19,10 +19,10 @@ Usage:        #example
 * definitional.ingredient[+].type = PTIngredientRoleCS#1
 //* definitional.ingredient[=].item.concept = PTSubstanceCS#43
 * definitional.ingredient[=].item.concept.coding[+] = PTSubstanceCS#43
+* definitional.ingredient[=].item.concept.coding[+] = SubstanceOntologyCS#20053000
 
 * definitional.ingredient.strengthQuantity = 5 'mg'
 * packaging.extension[PackageSize].valueQuantity  = 20 'units'
-
 
 
 Instance: pt-cnpem-50013343
@@ -45,6 +45,7 @@ Usage:        #example
 * definitional.ingredient[+].type = PTIngredientRoleCS#1
 //* definitional.ingredient[=].item.concept = PTSubstanceCS#43
 * definitional.ingredient[=].item.concept.coding[+] = PTSubstanceCS#43
+* definitional.ingredient[=].item.concept.coding[+] = SubstanceOntologyCS#20053000
 
 * definitional.ingredient.strengthQuantity = 5 'mg'
 * packaging.extension[PackageSize].valueQuantity  = 60 'units'
@@ -71,6 +72,7 @@ Usage:        #example
 * definitional.ingredient[+].type = PTIngredientRoleCS#1
 //* definitional.ingredient[=].item.concept = PTSubstanceCS#43
 * definitional.ingredient[=].item.concept.coding[+] = PTSubstanceCS#43
+* definitional.ingredient[=].item.concept.coding[+] = SubstanceOntologyCS#20053000
 
 * definitional.ingredient.strengthQuantity = 10 'mg'
 * packaging.extension[PackageSize].valueQuantity  = 30 'units'
@@ -98,6 +100,7 @@ Usage:        #example
 * definitional.ingredient[+].type = PTIngredientRoleCS#1
 //* definitional.ingredient[=].item.concept = PTSubstanceCS#43
 * definitional.ingredient[=].item.concept.coding[+] = PTSubstanceCS#43
+* definitional.ingredient[=].item.concept.coding[+] = SubstanceOntologyCS#20053000
 
 * definitional.ingredient.strengthQuantity = 10 'mg'
 * packaging.extension[PackageSize].valueQuantity  = 60 'units'
