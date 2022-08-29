@@ -1,0 +1,25 @@
+Profile: untyped
+Parent: Element
+* . ^short = "No specific data type assigned"
+* . ^definition = "No specific data type assigned"
+
+Profile: coded
+Parent: Element
+* . ^short = "A coded element"
+* . ^definition = "A coded element"
+
+
+Profile: group
+Parent: BackboneElement
+* . ^short = " group "
+* . ^definition = "Grouping"
+
+
+Logical:        Patient
+Id:             patient-model
+Description:    "An administrative record of patient demographics"
+
+* name 1..* untyped "name" "name"
+* maritalStatus 0..1 coded "Legal marital status" "Legal marital status"
+* address 0..1 group "name" "name"
+  * street 0..1 untyped "" ""

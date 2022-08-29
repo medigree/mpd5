@@ -33,13 +33,11 @@ Title:     "Substance Ontology Code System"
     * ^property[+].code = #parent
     * ^property[=].valueCode = #20053000
 
-
   * #10220XXX1
       "Amlodipine Mesilate"
       "Amlodipine Mesilate"
     * ^property[+].code = #parent
     * ^property[=].valueCode = #20053000
-
 
 
 ValueSet: SubstanceOntologyVS
