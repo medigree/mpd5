@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/prod-type-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "prod-type-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>template</td><td>https://medigree.github.io/mpd5/concept-produttype-template</td><td>string</td><td/></tr><tr><td>profile</td><td>https://medigree.github.io/mpd5/concept-produttype-profile</td><td>string</td><td/></tr><tr><td>country</td><td>https://medigree.github.io/mpd5/concept-producttype-country</td><td>code</td><td/></tr></table><p>This code system https://medigree.github.io/mpd5/CodeSystem/prod-type-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">IDMP_PhP<a name=\"prod-type-cs-IDMP_PhP\"> </a></td><td>IDMP Pharmaceutical Product</td></tr><tr><td style=\"white-space:nowrap\">IDMP_MP<a name=\"prod-type-cs-IDMP_MP\"> </a></td><td>IDMP Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">IDMP_PP<a name=\"prod-type-cs-IDMP_PP\"> </a></td><td>IDMP Packaged Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">BE_MP<a name=\"prod-type-cs-BE_MP\"> </a></td><td>Belgian Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">BE_VMP<a name=\"prod-type-cs-BE_VMP\"> </a></td><td>Virtual Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">BE_AMP<a name=\"prod-type-cs-BE_AMP\"> </a></td><td>Actual Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">PT-CNPEM<a name=\"prod-type-cs-PT-CNPEM\"> </a></td><td>PT-CNPEM</td></tr><tr><td style=\"white-space:nowrap\">PT-PMP<a name=\"prod-type-cs-PT-PMP\"> </a></td><td>PT-PMP</td></tr><tr><td style=\"white-space:nowrap\">ePI<a name=\"prod-type-cs-ePI\"> </a></td><td>ePI</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "ProductTypeCS"];
+  fhir:CodeSystem.title [ fhir:value "Product Types code system"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-08-29T19:31:01+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Medigree"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Medigree" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://medigree.net" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Product Types"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "9"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.property [
+     fhir:index 0;
+     fhir:CodeSystem.property.code [ fhir:value "template" ];
+     fhir:CodeSystem.property.uri [ fhir:value "https://medigree.github.io/mpd5/concept-produttype-template" ];
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.property.code [ fhir:value "profile" ];
+     fhir:CodeSystem.property.uri [ fhir:value "https://medigree.github.io/mpd5/concept-produttype-profile" ];
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.property.code [ fhir:value "country" ];
+     fhir:CodeSystem.property.uri [ fhir:value "https://medigree.github.io/mpd5/concept-producttype-country" ];
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "IDMP_PhP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "IDMP Pharmaceutical Product" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "IDMP_MP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "IDMP Medicinal Product" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "IDMP_PP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "IDMP Packaged Medicinal Product" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "BE_MP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Belgian Medicinal Product" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "country" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "BE" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "BE_VMP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Virtual Medicinal Product" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "country" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "BE" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "BE_AMP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Actual Medicinal Product" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "country" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "BE" ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "PT-CNPEM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "PT-CNPEM" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "country" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "PT" ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "PT-PMP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "PT-PMP" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "country" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "PT" ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "ePI" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ePI" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "template" ];
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "{\"<>\":\"div\",\"id\":\"${synonym}\",\"html\":[{\"<>\":\"table\",\"class\":\"table table-striped table-sm\",\"html\":[{\"<>\":\"thead\",\"html\":[{\"<>\":\"tr\",\"html\":[{\"<>\":\"th\",\"scope\":\"col\",\"html\":\"${resourceType}\"},{\"<>\":\"th\",\"scope\":\"col\",\"html\":\"\"}]}]},{\"<>\":\"tbody\",\"html\":[{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"style\":\"width: 90px;\",\"scope\":\"row\",\"html\":\"Name\"},{\"<>\":\"td\",\"html\":\"${synonym}\"}]},{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"scope\":\"row\",\"html\":\"ID\"},{\"<>\":\"td\",\"html\":\"${id}\"}]},{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"scope\":\"row\",\"html\":\"Status\"},{\"<>\":\"td\",\"html\":\"${status}\"}]}]}]}]}" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/prod-type-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

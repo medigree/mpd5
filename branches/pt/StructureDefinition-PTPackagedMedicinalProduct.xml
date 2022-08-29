@@ -25,17 +25,17 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0103.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Definition" class="hierarchy"/> <a style="font-style: italic" href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding">Slices for coding</a><a name="MedicationKnowledge.definitional.doseForm.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="font-style: italic"/><span style="opacity: 0.5; font-style: italic">0</span><span style="opacity: 0.5; font-style: italic">..</span><span style="opacity: 0.5; font-style: italic">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; font-style: italic" href="http://build.fhir.org/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5; font-style: italic">Code defined by a terminology system</span><br style="font-style: italic"/><span style="font-weight:bold; font-style: italic">Slice: </span><span style="font-style: italic">Unordered, Open by pattern:system</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01033.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> coding:All Slices<a name="MedicationKnowledge.definitional.doseForm.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Content/Rules for all slices</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010320.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding.system">system</a><a name="MedicationKnowledge.definitional.doseForm.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01035.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding:EDQM" title="Slice EDQM">coding:EDQM</a><a name="MedicationKnowledge.definitional.doseForm.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Code defined by a terminology system</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010340.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding:EDQM.system">system</a><a name="MedicationKnowledge.definitional.doseForm.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">http://www.edqm.eu/dose-forms</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01025.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding:Other" title="Slice Other">coding:Other</a><a name="MedicationKnowledge.definitional.doseForm.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Code defined by a terminology system</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010240.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding:Other.system">system</a><a name="MedicationKnowledge.definitional.doseForm.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">http://www.infarmed.pt/dose-forms</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01035.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding:EDQM-DF" title="Slice EDQM-DF">coding:EDQM-DF</a><a name="MedicationKnowledge.definitional.doseForm.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Code defined by a terminology system</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010340.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.system">system</a><a name="MedicationKnowledge.definitional.doseForm.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01025.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding:PT-DF" title="Slice PT-DF">coding:PT-DF</a><a name="MedicationKnowledge.definitional.doseForm.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Code defined by a terminology system</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010240.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.doseForm.coding:PT-DF.system">system</a><a name="MedicationKnowledge.definitional.doseForm.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck013.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice.png" alt="." style="background-color: white; background-color: inherit" title="Slice Definition" class="hierarchy"/> <a style="font-style: italic" href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute">Slices for intendedRoute</a><a name="MedicationKnowledge.definitional.intendedRoute"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red; font-style: italic" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="font-style: italic"/><span style="font-style: italic">1</span><span style="font-style: italic">..</span><span style="opacity: 0.5; font-style: italic">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; font-style: italic" href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5; font-style: italic">The intended or approved route of administration</span><br style="font-style: italic"/><span style="font-weight:bold; font-style: italic">Slice: </span><span style="font-style: italic">Unordered, Open by pattern:coding.system</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0135.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:EDQM" title="Slice EDQM">intendedRoute:EDQM</a><a name="MedicationKnowledge.definitional.intendedRoute"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The intended or approved route of administration</span><br/></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01341.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:EDQM.coding">coding</a><a name="MedicationKnowledge.definitional.intendedRoute.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck013400.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:EDQM.coding.system">system</a><a name="MedicationKnowledge.definitional.intendedRoute.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">http://www.edqm.eu/routes</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0125.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:Other" title="Slice Other">intendedRoute:Other</a><a name="MedicationKnowledge.definitional.intendedRoute"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The intended or approved route of administration</span><br/></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01241.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:Other.coding">coding</a><a name="MedicationKnowledge.definitional.intendedRoute.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck012400.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:Other.coding.system">system</a><a name="MedicationKnowledge.definitional.intendedRoute.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">http://www.infarmed.pt/routes</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0135.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:EDQM-RoA" title="Slice EDQM-RoA">intendedRoute:EDQM-RoA</a><a name="MedicationKnowledge.definitional.intendedRoute"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The intended or approved route of administration</span><br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01341.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding">coding</a><a name="MedicationKnowledge.definitional.intendedRoute.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck013400.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.system">system</a><a name="MedicationKnowledge.definitional.intendedRoute.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">http://www.edqm.eu/routes</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0125.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:PT-RoA" title="Slice PT-RoA">intendedRoute:PT-RoA</a><a name="MedicationKnowledge.definitional.intendedRoute"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The intended or approved route of administration</span><br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01241.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding">coding</a><a name="MedicationKnowledge.definitional.intendedRoute.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck012400.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.system">system</a><a name="MedicationKnowledge.definitional.intendedRoute.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">http://medigree.net/fhir/mpd5/CodeSystem/pt-route-cs</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.ingredient">ingredient</a><a name="MedicationKnowledge.definitional.ingredient"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/types.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Active or inactive ingredient</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.ingredient.item">item</a><a name="MedicationKnowledge.definitional.ingredient.item"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/references.html">CodeableReference</a>(<a style="opacity: 0.5" href="http://build.fhir.org/substance.html">Substance</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Substances contained in the medication</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-PTPackagedMedicinalProduct-definitions.html#MedicationKnowledge.definitional.ingredient.type">type</a><a name="MedicationKnowledge.definitional.ingredient.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">A code that defines the type of ingredient, active, base, etc.</span></td></tr>
@@ -53,7 +53,7 @@
   <name value="PTPackagedMedicinalProduct"/>
   <title value="PackagedMedicinalProduct Profile"/>
   <status value="active"/>
-  <date value="2022-08-24T21:33:25+00:00"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
   <publisher value="Medigree"/>
   <contact>
     <name value="Medigree"/>
@@ -5240,9 +5240,9 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF">
       <path value="MedicationKnowledge.definitional.doseForm.coding"/>
-      <sliceName value="EDQM"/>
+      <sliceName value="EDQM-DF"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
       <comment value="Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true."/>
@@ -5281,7 +5281,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM.id">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.id">
       <path value="MedicationKnowledge.definitional.doseForm.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -5306,7 +5306,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM.extension">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.extension">
       <path value="MedicationKnowledge.definitional.doseForm.coding.extension"/>
       <slicing>
         <discriminator>
@@ -5354,7 +5354,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM.system">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.system">
       <path value="MedicationKnowledge.definitional.doseForm.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -5370,7 +5370,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <patternUri value="http://www.edqm.eu/dose-forms"/>
+      <patternUri value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -5394,7 +5394,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM.version">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.version">
       <path value="MedicationKnowledge.definitional.doseForm.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -5432,7 +5432,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM.code">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.code">
       <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
         <valueBoolean value="true"/>
       </extension>
@@ -5473,7 +5473,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM.display">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -5517,7 +5517,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM.userSelected">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.userSelected">
       <path value="MedicationKnowledge.definitional.doseForm.coding.userSelected"/>
       <short value="If this coding was chosen directly by the user"/>
       <definition value="Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
@@ -5556,9 +5556,9 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF">
       <path value="MedicationKnowledge.definitional.doseForm.coding"/>
-      <sliceName value="Other"/>
+      <sliceName value="PT-DF"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
       <comment value="Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true."/>
@@ -5597,7 +5597,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other.id">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF.id">
       <path value="MedicationKnowledge.definitional.doseForm.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -5622,7 +5622,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other.extension">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF.extension">
       <path value="MedicationKnowledge.definitional.doseForm.coding.extension"/>
       <slicing>
         <discriminator>
@@ -5670,7 +5670,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other.system">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF.system">
       <path value="MedicationKnowledge.definitional.doseForm.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -5686,7 +5686,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <patternUri value="http://www.infarmed.pt/dose-forms"/>
+      <patternUri value="http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -5710,7 +5710,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other.version">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF.version">
       <path value="MedicationKnowledge.definitional.doseForm.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -5748,7 +5748,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other.code">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF.code">
       <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
         <valueBoolean value="true"/>
       </extension>
@@ -5789,7 +5789,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other.display">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -5833,7 +5833,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other.userSelected">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF.userSelected">
       <path value="MedicationKnowledge.definitional.doseForm.coding.userSelected"/>
       <short value="If this coding was chosen directly by the user"/>
       <definition value="Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
@@ -5957,9 +5957,9 @@
         <valueSet value="http://hl7.org/fhir/ValueSet/route-codes"/>
       </binding>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA">
       <path value="MedicationKnowledge.definitional.intendedRoute"/>
-      <sliceName value="EDQM"/>
+      <sliceName value="EDQM-RoA"/>
       <short value="The intended or approved route of administration"/>
       <definition value="The intended or approved route of administration."/>
       <min value="0"/>
@@ -5991,7 +5991,7 @@
         <valueSet value="http://hl7.org/fhir/ValueSet/route-codes"/>
       </binding>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.id">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.id">
       <path value="MedicationKnowledge.definitional.intendedRoute.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -6016,7 +6016,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.extension">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.extension">
       <path value="MedicationKnowledge.definitional.intendedRoute.extension"/>
       <slicing>
         <discriminator>
@@ -6064,7 +6064,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -6103,7 +6103,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding.id">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.id">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -6128,7 +6128,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding.extension">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.extension">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.extension"/>
       <slicing>
         <discriminator>
@@ -6176,7 +6176,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding.system">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.system">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -6216,7 +6216,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding.version">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.version">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -6254,7 +6254,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding.code">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.code">
       <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
         <valueBoolean value="true"/>
       </extension>
@@ -6295,7 +6295,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding.display">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -6339,7 +6339,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding.userSelected">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.userSelected">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.userSelected"/>
       <short value="If this coding was chosen directly by the user"/>
       <definition value="Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
@@ -6378,7 +6378,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.text">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.text">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -6423,9 +6423,9 @@
         <map value="fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA">
       <path value="MedicationKnowledge.definitional.intendedRoute"/>
-      <sliceName value="Other"/>
+      <sliceName value="PT-RoA"/>
       <short value="The intended or approved route of administration"/>
       <definition value="The intended or approved route of administration."/>
       <min value="0"/>
@@ -6457,7 +6457,7 @@
         <valueSet value="http://hl7.org/fhir/ValueSet/route-codes"/>
       </binding>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.id">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.id">
       <path value="MedicationKnowledge.definitional.intendedRoute.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -6482,7 +6482,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.extension">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.extension">
       <path value="MedicationKnowledge.definitional.intendedRoute.extension"/>
       <slicing>
         <discriminator>
@@ -6530,7 +6530,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -6569,7 +6569,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding.id">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.id">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -6594,7 +6594,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding.extension">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.extension">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.extension"/>
       <slicing>
         <discriminator>
@@ -6642,7 +6642,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding.system">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.system">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -6658,7 +6658,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <patternUri value="http://www.infarmed.pt/routes"/>
+      <patternUri value="http://medigree.net/fhir/mpd5/CodeSystem/pt-route-cs"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -6682,7 +6682,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding.version">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.version">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -6720,7 +6720,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding.code">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.code">
       <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
         <valueBoolean value="true"/>
       </extension>
@@ -6761,7 +6761,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding.display">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -6805,7 +6805,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding.userSelected">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.userSelected">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.userSelected"/>
       <short value="If this coding was chosen directly by the user"/>
       <definition value="Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
@@ -6844,7 +6844,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.text">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.text">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -7446,27 +7446,27 @@
       <min value="1"/>
       <mustSupport value="true"/>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF">
       <path value="MedicationKnowledge.definitional.doseForm.coding"/>
-      <sliceName value="EDQM"/>
+      <sliceName value="EDQM-DF"/>
       <min value="0"/>
       <max value="1"/>
       <mustSupport value="true"/>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM.system">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:EDQM-DF.system">
       <path value="MedicationKnowledge.definitional.doseForm.coding.system"/>
-      <patternUri value="http://www.edqm.eu/dose-forms"/>
+      <patternUri value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF">
       <path value="MedicationKnowledge.definitional.doseForm.coding"/>
-      <sliceName value="Other"/>
+      <sliceName value="PT-DF"/>
       <min value="0"/>
       <max value="1"/>
       <mustSupport value="true"/>
     </element>
-    <element id="MedicationKnowledge.definitional.doseForm.coding:Other.system">
+    <element id="MedicationKnowledge.definitional.doseForm.coding:PT-DF.system">
       <path value="MedicationKnowledge.definitional.doseForm.coding.system"/>
-      <patternUri value="http://www.infarmed.pt/dose-forms"/>
+      <patternUri value="http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs"/>
     </element>
     <element id="MedicationKnowledge.definitional.intendedRoute">
       <path value="MedicationKnowledge.definitional.intendedRoute"/>
@@ -7480,29 +7480,29 @@
       <min value="1"/>
       <mustSupport value="true"/>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA">
       <path value="MedicationKnowledge.definitional.intendedRoute"/>
-      <sliceName value="EDQM"/>
+      <sliceName value="EDQM-RoA"/>
       <min value="0"/>
       <max value="*"/>
       <mustSupport value="true"/>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM.coding.system">
+    <element id="MedicationKnowledge.definitional.intendedRoute:EDQM-RoA.coding.system">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.system"/>
       <min value="1"/>
       <patternUri value="http://www.edqm.eu/routes"/>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA">
       <path value="MedicationKnowledge.definitional.intendedRoute"/>
-      <sliceName value="Other"/>
+      <sliceName value="PT-RoA"/>
       <min value="0"/>
       <max value="*"/>
       <mustSupport value="true"/>
     </element>
-    <element id="MedicationKnowledge.definitional.intendedRoute:Other.coding.system">
+    <element id="MedicationKnowledge.definitional.intendedRoute:PT-RoA.coding.system">
       <path value="MedicationKnowledge.definitional.intendedRoute.coding.system"/>
       <min value="1"/>
-      <patternUri value="http://www.infarmed.pt/routes"/>
+      <patternUri value="http://medigree.net/fhir/mpd5/CodeSystem/pt-route-cs"/>
     </element>
     <element id="MedicationKnowledge.definitional.ingredient">
       <path value="MedicationKnowledge.definitional.ingredient"/>

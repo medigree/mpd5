@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "MPD5"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-08-24T21:34:08+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-08-29T19:31:01+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Medigree"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -52,6 +52,60 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/DefinedMed" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "DefinedMed" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PTCNPEM" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PT CNPEM Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PT CNPEM Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PTCNPEMXB" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PTCNPEMXB" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PTPackagedMedicinalProduct" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PackagedMedicinalProduct Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PackagedMedicinalProduct  Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/IdentifiableMedication" ]
        ];
@@ -59,20 +113,115 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "IdentifiableMedication" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 1;
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/XBMedicationRequest>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/XBMedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "XBMedicationRequest" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/definedMedication>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/definedMedication" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "DefinedMedication" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/drugCharacteristic>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/drugCharacteristic" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Drug Characteristic" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Drug Characteristic" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/medRelation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/medRelation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedRelation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/package-size>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/package-size" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PackageSize" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Package size" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/relatedMedication>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/relatedMedication" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Related Medication" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Related Medication" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-vs>;
-         fhir:Reference.reference [ fhir:value "ValueSet/dose-form-ontology-vs" ]
+         fhir:link <http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/dose-form-ontology-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dose Form ontology Value Set" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/ValueSet/prod-type-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/prod-type-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Product Types Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Product Types Value Set." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -85,20 +234,129 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Substance ontology Value Set" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/ValueSet/vs-med-relation-types>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vs-med-relation-types" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication Relation Types" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Relation Types." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/dose-form-ontology-cs" ]
+         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/Cs-med-relation-types" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication Relation Types" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Relation Types." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/edqm-doseform-ont-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/edqm-doseform-ont-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dose Form Ontology Code System" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/edqm-route-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/edqm-route-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dose Form Ontology Code System" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/pt-doseform-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dose form code system" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dose form code system." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-role-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/pt-ingredient-role-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PTIngredientRoleCS" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/pt-route-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/pt-route-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Route of administration code system" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Route of administration code system." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/pt-ingredient-item-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PTSubstanceCS" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/CodeSystem/prod-type-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/prod-type-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Product Types code system" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Product Types" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -111,20 +369,194 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Substance Ontology Code System" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationRequest/AmlodipineReq>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/AmlodipineReq" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AmlodipineReq" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/XBMedicationRequest";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/XBMedicationRequest>
+       ]
+     ], [
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/Med1>;
-         fhir:Reference.reference [ fhir:value "MedicationKnowledge/Med1" ]
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-50013335>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-cnpem-50013335" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Med1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Amlopdipina 5 mg comprimido - 20 unidades" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication";
-         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication>
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM>
+       ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-50013343>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-cnpem-50013343" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Amlopdipina 5 mg comprimido - 60 unidades" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM>
+       ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-50013351>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-cnpem-50013351" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Amlopdipina 5 mg comprimido - 30 unidades" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM>
+       ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-50013360>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-cnpem-50013360" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Amlopdipina 10 mg comprimido - 60 unidades" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM>
+       ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-xb-50013335>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-cnpem-xb-50013335" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Amlopdipina 5 mg comprimido - 20 unidades" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB>
+       ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-xb-50013343>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-cnpem-xb-50013343" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Amlopdipina 5 mg comprimido - 60 unidades" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB>
+       ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-xb-50013351>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-cnpem-xb-50013351" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Amlopdipina 5 mg comprimido - 30 unidades" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB>
+       ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-xb-50013360>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-cnpem-xb-50013360" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Amlopdipina 10 mg comprimido - 60 unidades" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB>
+       ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationKnowledge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-pmp-10424>;
+         fhir:Reference.reference [ fhir:value "MedicationKnowledge/pt-pmp-10424" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Norvasc 5 mg Comprimido Blister - 30 unidade(s)" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct>
+       ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/SearchParameter/sp-mpd-name-country>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-mpd-name-country" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "sp-mpd-name-country" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Search by product name country - i.e. the country to where a name applies" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Medication" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://medigree.net/fhir/mpd5/Medication/transmittedMedExample1>;
+         fhir:Reference.reference [ fhir:value "Medication/transmittedMedExample1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "transmittedMedExample1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed";
+         fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed>
        ]
      ];
      fhir:ImplementationGuide.definition.page [

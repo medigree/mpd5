@@ -16,7 +16,7 @@
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "PackageSize"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-08-24T21:33:25+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-08-29T19:31:01+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Medigree"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

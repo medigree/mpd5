@@ -7,10 +7,10 @@
   </text>
   <url value="http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs"/>
   <version value="0.1.0"/>
-  <name value="EDQM-DOSEFORM-ONT-VS"/>
+  <name value="EDQM_DOSEFORM_ONT_VS"/>
   <title value="Dose Form ontology Value Set"/>
   <status value="active"/>
-  <date value="2022-08-24T21:33:25+00:00"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
   <publisher value="Medigree"/>
   <contact>
     <name value="Medigree"/>

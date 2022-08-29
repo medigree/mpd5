@@ -7,10 +7,10 @@
   },
   "url": "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs",
   "version": "0.1.0",
-  "name": "EDQM-DOSEFORM-ONT-VS",
+  "name": "EDQM_DOSEFORM_ONT_VS",
   "title": "Dose Form ontology Value Set",
   "status": "active",
-  "date": "2022-08-24T21:33:25+00:00",
+  "date": "2022-08-29T19:31:01+00:00",
   "publisher": "Medigree",
   "contact": [
     {

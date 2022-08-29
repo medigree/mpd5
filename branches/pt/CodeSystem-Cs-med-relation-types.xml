@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="Cs-med-relation-types"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">same<a name="Cs-med-relation-types-same"> </a></td><td>same</td></tr></table></div>
+  </text>
+  <url value="http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types"/>
+  <version value="0.1.0"/>
+  <name value="CSMedRelationTypes"/>
+  <title value="Medication Relation Types"/>
+  <status value="active"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <description value="Medication Relation Types."/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="same"/>
+    <display value="same"/>
+  </concept>
+</CodeSystem>

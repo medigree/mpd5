@@ -1,0 +1,108 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-xb-50013360> a fhir:MedicationKnowledge;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pt-cnpem-xb-50013360"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB";
+       fhir:index 0;
+       fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationKnowledge</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationKnowledge \"pt-cnpem-xb-50013360\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PTCNPEMXB.html\">PTCNPEMXB</a></p></div><p><b>code</b>: 50013360 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#50013360)</span></p><p><b>intendedJurisdiction</b>: Portugal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#PT)</span></p><p><b>name</b>: Amlopdipina 10 mg - 60 unidades</p><p><b>productType</b>: PT-CNPEM <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-prod-type-cs.html\">Product Types code system</a>#PT-CNPEM)</span></p><h3>Packagings</h3><table class=\"grid\"><tr><td>-</td><td><b>Extension</b></td></tr><tr><td>*</td><td></td></tr></table><blockquote><p><b>definitional</b></p><p><b>doseForm</b>: Comprimido <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pt-doseform-cs.html\">Dose form code system</a>#271; <a href=\"CodeSystem-edqm-doseform-ont-cs.html\">Dose Form Ontology Code System</a>#10223000)</span></p><blockquote><p><b>ingredient</b></p><p><b>type</b>: Active Principle <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-pt-ingredient-role-cs.html\">PTIngredientRoleCS</a>#1)</span></p><p><b>strength</b>: 10 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:MedicationKnowledge.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.code [ fhir:value "50013360" ]
+     ]
+  ];
+  fhir:MedicationKnowledge.intendedJurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "PT" ]
+     ]
+  ];
+  fhir:MedicationKnowledge.name [
+     fhir:value "Amlopdipina 10 mg - 60 unidades";
+     fhir:index 0
+  ];
+  fhir:MedicationKnowledge.productType [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://medigree.github.io/mpd5/CodeSystem/prod-type-cs" ];
+       fhir:Coding.code [ fhir:value "PT-CNPEM" ]
+     ]
+  ];
+  fhir:MedicationKnowledge.packaging [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/package-size" ];
+       fhir:Extension.valueQuantity [
+         fhir:Quantity.value [ fhir:value "60"^^xsd:decimal ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "units" ]
+       ]
+     ]
+  ];
+  fhir:MedicationKnowledge.definitional [
+     fhir:MedicationKnowledge.definitional.doseForm [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs" ];
+         fhir:Coding.code [ fhir:value "271" ]
+       ], [
+         fhir:index 1;
+         fhir:Coding.system [ fhir:value "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs" ];
+         fhir:Coding.code [ fhir:value "10223000" ]
+       ]
+     ];
+     fhir:MedicationKnowledge.definitional.ingredient [
+       fhir:index 0;
+       fhir:MedicationKnowledge.definitional.ingredient.item [
+         fhir:CodeableReference.concept [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs" ];
+             fhir:Coding.code [ fhir:value "43" ]
+           ], [
+             fhir:index 1;
+             fhir:Coding.system [ fhir:value "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs" ];
+             fhir:Coding.code [ fhir:value "10220XXX" ]
+           ]
+         ]
+       ];
+       fhir:MedicationKnowledge.definitional.ingredient.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-role-cs" ];
+           fhir:Coding.code [ fhir:value "1" ]
+         ]
+       ];
+       fhir:MedicationKnowledge.definitional.ingredient.strengthQuantity [
+         fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "mg" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/MedicationKnowledge/pt-cnpem-xb-50013360.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

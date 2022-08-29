@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "MPD5",
   "status": "draft",
-  "date": "2022-08-24T21:34:08+00:00",
+  "date": "2022-08-29T19:31:01+00:00",
   "publisher": "Medigree",
   "contact": [
     {
@@ -45,6 +45,60 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/DefinedMed"
+        },
+        "name": "DefinedMed",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PTCNPEM"
+        },
+        "name": "PT CNPEM Profile",
+        "description": "PT CNPEM Profile",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PTCNPEMXB"
+        },
+        "name": "PTCNPEMXB",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PTPackagedMedicinalProduct"
+        },
+        "name": "PackagedMedicinalProduct Profile",
+        "description": "PackagedMedicinalProduct  Profile",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/IdentifiableMedication"
         },
         "name": "IdentifiableMedication",
@@ -55,13 +109,108 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/XBMedicationRequest"
+        },
+        "name": "XBMedicationRequest",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/definedMedication"
+        },
+        "name": "DefinedMedication",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/drugCharacteristic"
+        },
+        "name": "Drug Characteristic",
+        "description": "Drug Characteristic",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/medRelation"
+        },
+        "name": "MedRelation",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/package-size"
+        },
+        "name": "PackageSize",
+        "description": "Package size",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/relatedMedication"
+        },
+        "name": "Related Medication",
+        "description": "Related Medication",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "ValueSet/dose-form-ontology-vs"
+          "reference": "ValueSet/dose-form-ontology-cs"
         },
         "name": "Dose Form ontology Value Set",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/prod-type-vs"
+        },
+        "name": "Product Types Value Set",
+        "description": "Product Types Value Set.",
         "exampleBoolean": false
       },
       {
@@ -81,13 +230,122 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/vs-med-relation-types"
+        },
+        "name": "Medication Relation Types",
+        "description": "Medication Relation Types.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/dose-form-ontology-cs"
+          "reference": "CodeSystem/Cs-med-relation-types"
+        },
+        "name": "Medication Relation Types",
+        "description": "Medication Relation Types.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/edqm-doseform-ont-cs"
         },
         "name": "Dose Form Ontology Code System",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/edqm-route-cs"
+        },
+        "name": "Dose Form Ontology Code System",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/pt-doseform-cs"
+        },
+        "name": "Dose form code system",
+        "description": "Dose form code system.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/pt-ingredient-role-cs"
+        },
+        "name": "PTIngredientRoleCS",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/pt-route-cs"
+        },
+        "name": "Route of administration code system",
+        "description": "Route of administration code system.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/pt-ingredient-item-cs"
+        },
+        "name": "PTSubstanceCS",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/prod-type-cs"
+        },
+        "name": "Product Types code system",
+        "description": "Product Types",
         "exampleBoolean": false
       },
       {
@@ -107,14 +365,158 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationRequest"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationRequest/AmlodipineReq"
+        },
+        "name": "AmlodipineReq",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/XBMedicationRequest"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationKnowledge"
           }
         ],
         "reference": {
-          "reference": "MedicationKnowledge/Med1"
+          "reference": "MedicationKnowledge/pt-cnpem-50013335"
         },
-        "name": "Med1",
-        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication"
+        "name": "Amlopdipina 5 mg comprimido - 20 unidades",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationKnowledge"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationKnowledge/pt-cnpem-50013343"
+        },
+        "name": "Amlopdipina 5 mg comprimido - 60 unidades",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationKnowledge"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationKnowledge/pt-cnpem-50013351"
+        },
+        "name": "Amlopdipina 5 mg comprimido - 30 unidades",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationKnowledge"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationKnowledge/pt-cnpem-50013360"
+        },
+        "name": "Amlopdipina 10 mg comprimido - 60 unidades",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationKnowledge"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationKnowledge/pt-cnpem-xb-50013335"
+        },
+        "name": "Amlopdipina 5 mg comprimido - 20 unidades",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationKnowledge"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationKnowledge/pt-cnpem-xb-50013343"
+        },
+        "name": "Amlopdipina 5 mg comprimido - 60 unidades",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationKnowledge"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationKnowledge/pt-cnpem-xb-50013351"
+        },
+        "name": "Amlopdipina 5 mg comprimido - 30 unidades",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationKnowledge"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationKnowledge/pt-cnpem-xb-50013360"
+        },
+        "name": "Amlopdipina 10 mg comprimido - 60 unidades",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationKnowledge"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationKnowledge/pt-pmp-10424"
+        },
+        "name": "Norvasc 5 mg Comprimido Blister - 30 unidade(s)",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/sp-mpd-name-country"
+        },
+        "name": "sp-mpd-name-country",
+        "description": "Search by product name country - i.e. the country to where a name applies",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Medication"
+          }
+        ],
+        "reference": {
+          "reference": "Medication/transmittedMedExample1"
+        },
+        "name": "transmittedMedExample1",
+        "exampleCanonical": "http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed"
       }
     ],
     "page": {

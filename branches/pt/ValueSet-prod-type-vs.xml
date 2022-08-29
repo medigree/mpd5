@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="prod-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-prod-type-cs.html"><code>https://medigree.github.io/mpd5/CodeSystem/prod-type-cs</code></a></li></ul></div>
+  </text>
+  <url value="https://medigree.github.io/mpd5/ValueSet/prod-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="ProductTypeVS"/>
+  <title value="Product Types Value Set"/>
+  <status value="active"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <description value="Product Types Value Set."/>
+  <compose>
+    <include>
+      <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+    </include>
+  </compose>
+</ValueSet>

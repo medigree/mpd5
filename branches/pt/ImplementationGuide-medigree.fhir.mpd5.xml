@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="MPD5"/>
   <status value="draft"/>
-  <date value="2022-08-24T21:34:08+00:00"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
   <publisher value="Medigree"/>
   <contact>
     <name value="Medigree"/>
@@ -32,6 +32,48 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/DefinedMed"/>
+      </reference>
+      <name value="DefinedMed"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PTCNPEM"/>
+      </reference>
+      <name value="PT CNPEM Profile"/>
+      <description value="PT CNPEM Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PTCNPEMXB"/>
+      </reference>
+      <name value="PTCNPEMXB"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PTPackagedMedicinalProduct"/>
+      </reference>
+      <name value="PackagedMedicinalProduct Profile"/>
+      <description value="PackagedMedicinalProduct  Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/IdentifiableMedication"/>
       </reference>
       <name value="IdentifiableMedication"/>
@@ -40,12 +82,86 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/XBMedicationRequest"/>
+      </reference>
+      <name value="XBMedicationRequest"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/definedMedication"/>
+      </reference>
+      <name value="DefinedMedication"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/drugCharacteristic"/>
+      </reference>
+      <name value="Drug Characteristic"/>
+      <description value="Drug Characteristic"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/medRelation"/>
+      </reference>
+      <name value="MedRelation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/package-size"/>
+      </reference>
+      <name value="PackageSize"/>
+      <description value="Package size"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/relatedMedication"/>
+      </reference>
+      <name value="Related Medication"/>
+      <description value="Related Medication"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/dose-form-ontology-vs"/>
+        <reference value="ValueSet/dose-form-ontology-cs"/>
       </reference>
       <name value="Dose Form ontology Value Set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/prod-type-vs"/>
+      </reference>
+      <name value="Product Types Value Set"/>
+      <description value="Product Types Value Set."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -60,12 +176,97 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-med-relation-types"/>
+      </reference>
+      <name value="Medication Relation Types"/>
+      <description value="Medication Relation Types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/dose-form-ontology-cs"/>
+        <reference value="CodeSystem/Cs-med-relation-types"/>
+      </reference>
+      <name value="Medication Relation Types"/>
+      <description value="Medication Relation Types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/edqm-doseform-ont-cs"/>
       </reference>
       <name value="Dose Form Ontology Code System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/edqm-route-cs"/>
+      </reference>
+      <name value="Dose Form Ontology Code System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pt-doseform-cs"/>
+      </reference>
+      <name value="Dose form code system"/>
+      <description value="Dose form code system."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pt-ingredient-role-cs"/>
+      </reference>
+      <name value="PTIngredientRoleCS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pt-route-cs"/>
+      </reference>
+      <name value="Route of administration code system"/>
+      <description value="Route of administration code system."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pt-ingredient-item-cs"/>
+      </reference>
+      <name value="PTSubstanceCS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/prod-type-cs"/>
+      </reference>
+      <name value="Product Types code system"/>
+      <description value="Product Types"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -80,13 +281,124 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/AmlodipineReq"/>
+      </reference>
+      <name value="AmlodipineReq"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/XBMedicationRequest"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="MedicationKnowledge"/>
       </extension>
       <reference>
-        <reference value="MedicationKnowledge/Med1"/>
+        <reference value="MedicationKnowledge/pt-cnpem-50013335"/>
       </reference>
-      <name value="Med1"/>
-      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication"/>
+      <name value="Amlopdipina 5 mg comprimido - 20 unidades"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationKnowledge"/>
+      </extension>
+      <reference>
+        <reference value="MedicationKnowledge/pt-cnpem-50013343"/>
+      </reference>
+      <name value="Amlopdipina 5 mg comprimido - 60 unidades"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationKnowledge"/>
+      </extension>
+      <reference>
+        <reference value="MedicationKnowledge/pt-cnpem-50013351"/>
+      </reference>
+      <name value="Amlopdipina 5 mg comprimido - 30 unidades"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationKnowledge"/>
+      </extension>
+      <reference>
+        <reference value="MedicationKnowledge/pt-cnpem-50013360"/>
+      </reference>
+      <name value="Amlopdipina 10 mg comprimido - 60 unidades"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationKnowledge"/>
+      </extension>
+      <reference>
+        <reference value="MedicationKnowledge/pt-cnpem-xb-50013335"/>
+      </reference>
+      <name value="Amlopdipina 5 mg comprimido - 20 unidades"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationKnowledge"/>
+      </extension>
+      <reference>
+        <reference value="MedicationKnowledge/pt-cnpem-xb-50013343"/>
+      </reference>
+      <name value="Amlopdipina 5 mg comprimido - 60 unidades"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationKnowledge"/>
+      </extension>
+      <reference>
+        <reference value="MedicationKnowledge/pt-cnpem-xb-50013351"/>
+      </reference>
+      <name value="Amlopdipina 5 mg comprimido - 30 unidades"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationKnowledge"/>
+      </extension>
+      <reference>
+        <reference value="MedicationKnowledge/pt-cnpem-xb-50013360"/>
+      </reference>
+      <name value="Amlopdipina 10 mg comprimido - 60 unidades"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationKnowledge"/>
+      </extension>
+      <reference>
+        <reference value="MedicationKnowledge/pt-pmp-10424"/>
+      </reference>
+      <name value="Norvasc 5 mg Comprimido Blister - 30 unidade(s)"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-mpd-name-country"/>
+      </reference>
+      <name value="sp-mpd-name-country"/>
+      <description value="Search by product name country - i.e. the country to where a name applies"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Medication"/>
+      </extension>
+      <reference>
+        <reference value="Medication/transmittedMedExample1"/>
+      </reference>
+      <name value="transmittedMedExample1"/>
+      <exampleCanonical value="http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

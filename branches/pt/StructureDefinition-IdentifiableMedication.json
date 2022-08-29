@@ -17,10 +17,10 @@
   ],
   "url": "http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication",
   "version": "0.1.0",
-  "name": "IdentifiableMedication",
+  "name": "UNICOMIdentifiableMedication",
   "title": "IdentifiableMedication",
   "status": "active",
-  "date": "2022-08-24T21:34:08+00:00",
+  "date": "2022-08-29T19:31:01+00:00",
   "publisher": "Medigree",
   "contact": [
     {

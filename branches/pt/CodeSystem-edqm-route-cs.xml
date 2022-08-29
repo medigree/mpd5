@@ -7,10 +7,10 @@
   </text>
   <url value="http://www.edqm.eu/routes"/>
   <version value="0.1.0"/>
-  <name value="EDQM-ROUTE-CS"/>
+  <name value="EDQM_ROUTE_CS"/>
   <title value="Dose Form Ontology Code System"/>
   <status value="active"/>
-  <date value="2022-08-24T21:33:25+00:00"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
   <publisher value="Medigree"/>
   <contact>
     <name value="Medigree"/>
