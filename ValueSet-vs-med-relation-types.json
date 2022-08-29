@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-med-relation-types",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-Cs-med-relation-types.html\"><code>http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types</code></a></li></ul></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/ValueSet/vs-med-relation-types",
+  "version": "0.1.0",
+  "name": "VSMedRelationTypes",
+  "title": "Medication Relation Types",
+  "status": "active",
+  "date": "2022-08-29T19:31:01+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "description": "Medication Relation Types.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types"
+      }
+    ]
+  }
+}

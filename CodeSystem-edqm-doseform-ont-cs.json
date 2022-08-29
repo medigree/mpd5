@@ -1,0 +1,179 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "edqm-doseform-ont-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td/></tr></table><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">10219000<a name=\"edqm-doseform-ont-cs-10219000\"> </a></td><td>Tablet</td><td>Tablet</td><td>10223000, 10226000, 10228000, 10220000</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10223000<a name=\"edqm-doseform-ont-cs-10223000\"> </a></td><td>Orodispersible tablet</td><td>Orodispersible tablet</td><td/><td>10219000</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10226000<a name=\"edqm-doseform-ont-cs-10226000\"> </a></td><td>Prolonged-release tablet</td><td>Prolonged-release tablet</td><td/><td>10219000</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10228000<a name=\"edqm-doseform-ont-cs-10228000\"> </a></td><td>Chewable tablet</td><td>Chewable tablet</td><td/><td>10219000</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10220000<a name=\"edqm-doseform-ont-cs-10220000\"> </a></td><td>Coated tablet</td><td>Coated tablet</td><td/><td>10219000</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    10221000<a name=\"edqm-doseform-ont-cs-10221000\"> </a></td><td>Film-coated tablet</td><td>Film-coated tablet</td><td/><td>10220000</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">12100<a name=\"edqm-doseform-ont-cs-12100\"> </a></td><td>Capsule</td><td>Capsule</td><td>10210000, 10211000, 10214000</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10210000<a name=\"edqm-doseform-ont-cs-10210000\"> </a></td><td>Capsule, hard</td><td>Capsule, hard</td><td/><td>12100</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10211000<a name=\"edqm-doseform-ont-cs-10211000\"> </a></td><td>Capsule, soft</td><td>Capsule, soft</td><td/><td>12100</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10214000<a name=\"edqm-doseform-ont-cs-10214000\"> </a></td><td>Chewable capsule, soft</td><td>Chewable capsule, soft</td><td/><td>12100</td></tr></table></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+  "version": "0.1.0",
+  "name": "EDQM_DOSEFORM_ONT_CS",
+  "title": "Dose Form Ontology Code System",
+  "status": "active",
+  "date": "2022-08-29T19:31:01+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "count": 10,
+  "property": [
+    {
+      "code": "child",
+      "uri": "http://hl7.org/fhir/concept-properties#child",
+      "type": "code"
+    },
+    {
+      "code": "parent",
+      "uri": "http://hl7.org/fhir/concept-properties#parent",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "10219000",
+      "display": "Tablet",
+      "definition": "Tablet",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "10223000"
+        },
+        {
+          "code": "child",
+          "valueCode": "10226000"
+        },
+        {
+          "code": "child",
+          "valueCode": "10228000"
+        },
+        {
+          "code": "child",
+          "valueCode": "10220000"
+        }
+      ],
+      "concept": [
+        {
+          "code": "10223000",
+          "display": "Orodispersible tablet",
+          "definition": "Orodispersible tablet",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "10219000"
+            }
+          ]
+        },
+        {
+          "code": "10226000",
+          "display": "Prolonged-release tablet",
+          "definition": "Prolonged-release tablet",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "10219000"
+            }
+          ]
+        },
+        {
+          "code": "10228000",
+          "display": "Chewable tablet",
+          "definition": "Chewable tablet",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "10219000"
+            }
+          ]
+        },
+        {
+          "code": "10220000",
+          "display": "Coated tablet",
+          "definition": "Coated tablet",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "10219000"
+            }
+          ],
+          "concept": [
+            {
+              "code": "10221000",
+              "display": "Film-coated tablet",
+              "definition": "Film-coated tablet",
+              "property": [
+                {
+                  "code": "parent",
+                  "valueCode": "10220000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "12100",
+      "display": "Capsule",
+      "definition": "Capsule",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "10210000"
+        },
+        {
+          "code": "child",
+          "valueCode": "10211000"
+        },
+        {
+          "code": "child",
+          "valueCode": "10214000"
+        }
+      ],
+      "concept": [
+        {
+          "code": "10210000",
+          "display": "Capsule, hard",
+          "definition": "Capsule, hard",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "12100"
+            }
+          ]
+        },
+        {
+          "code": "10211000",
+          "display": "Capsule, soft",
+          "definition": "Capsule, soft",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "12100"
+            }
+          ]
+        },
+        {
+          "code": "10214000",
+          "display": "Chewable capsule, soft",
+          "definition": "Chewable capsule, soft",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "12100"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

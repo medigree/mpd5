@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/Medication/transmittedMedExample1> a fhir:Medication;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "transmittedMedExample1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed";
+       fhir:index 0;
+       fhir:link <http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication \"transmittedMedExample1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-DefinedMed.html\">DefinedMed</a></p></div><blockquote><p><b>Drug Characteristic</b></p><p><b>value</b>: 10220XXX <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#10220XXX)</span></p></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "characteristicType" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.code [ fhir:value "10220XXX" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "characteristicValue" ]
+     ];
+     fhir:Extension.url [ fhir:value "http://medigree.net/fhir/mpd5/StructureDefinition/drugCharacteristic" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/Medication/transmittedMedExample1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

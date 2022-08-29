@@ -1,0 +1,36 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pt-route-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/pt-route-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"pt-route-cs-48\"> </a></td><td>Via Oral</td><td>Via Oral</td></tr></table></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/CodeSystem/pt-route-cs",
+  "version": "0.1.0",
+  "name": "PTRouteCS",
+  "title": "Route of administration code system",
+  "status": "active",
+  "date": "2022-08-29T19:31:01+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "description": "Route of administration code system.",
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "48",
+      "display": "Via Oral",
+      "definition": "Via Oral"
+    }
+  ]
+}

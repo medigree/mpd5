@@ -1,0 +1,48 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "AmlodipineReq",
+  "meta": {
+    "profile": [
+      "http://medigree.net/fhir/mpd5/StructureDefinition/XBMedicationRequest"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationRequest</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationRequest \"AmlodipineReq\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-XBMedicationRequest.html\">XBMedicationRequest</a></p></div><blockquote><p><b>Related Medication</b></p><p><b>value</b>: same (Details: [not stated] code same = 'same', stated as 'null')</p><p><b>value</b>: <a href=\"xbmed1\">xbmed1</a></p></blockquote><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>subject</b>: <span></span></p></div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "http://medigree.net/fhir/mpd5/StructureDefinition/medRelation",
+          "valueCoding": {
+            "code": "same"
+          }
+        },
+        {
+          "url": "http://medigree.net/fhir/mpd5/StructureDefinition/definedMedication",
+          "valueReference": {
+            "reference": "xbmed1"
+          }
+        }
+      ],
+      "url": "http://medigree.net/fhir/mpd5/StructureDefinition/relatedMedication"
+    }
+  ],
+  "status": "active",
+  "intent": "order",
+  "medication": {
+    "concept": {
+      "coding": [
+        {
+          "code": "50013343"
+        }
+      ]
+    }
+  },
+  "subject": {
+    "identifier": {
+      "value": "patient1"
+    }
+  }
+}

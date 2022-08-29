@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pt-doseform-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">271<a name=\"pt-doseform-cs-271\"> </a></td><td>Comprimido</td><td>Comprimido</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"pt-doseform-cs-29\"> </a></td><td>Cápsula</td><td>Cápsula</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"pt-doseform-cs-39\"> </a></td><td>Comprimido revestido por película</td><td>Comprimido revestido por película</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "PTDoseFormCS"];
+  fhir:CodeSystem.title [ fhir:value "Dose form code system"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-08-29T19:31:01+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Medigree"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Medigree" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://medigree.net" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Dose form code system."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "271" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Comprimido" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Comprimido" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cápsula" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Cápsula" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "39" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Comprimido revestido por película" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Comprimido revestido por película" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

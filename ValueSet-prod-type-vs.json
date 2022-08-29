@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prod-type-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-prod-type-cs.html\"><code>https://medigree.github.io/mpd5/CodeSystem/prod-type-cs</code></a></li></ul></div>"
+  },
+  "url": "https://medigree.github.io/mpd5/ValueSet/prod-type-cs",
+  "version": "0.1.0",
+  "name": "ProductTypeVS",
+  "title": "Product Types Value Set",
+  "status": "active",
+  "date": "2022-08-29T19:31:01+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "description": "Product Types Value Set.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"
+      }
+    ]
+  }
+}
