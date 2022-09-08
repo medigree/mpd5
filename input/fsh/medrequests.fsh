@@ -74,11 +74,11 @@ InstanceOf: XBMedicationRequest
 * subject.identifier.value = "patient1"
 
 
-Instance: transmittedMedExample1
+Instance: xbmed1
 InstanceOf: DefinedMed
-* extension[drugCharacteristic].extension[characteristicType].valueCodeableConcept = #EDQM-DF
-* extension[drugCharacteristic].extension[characteristicType].valueCodeableConcept = #10223000 // orodispersible tablet for sake of example
-* extension[drugCharacteristic].extension[characteristicType].valueCodeableConcept = #SUBS
-* extension[drugCharacteristic].extension[characteristicType].valueCodeableConcept = #10220XXX // amlodipine besilate for sake of example
+* extension[drugCharacteristic][+].extension[characteristicType].valueCodeableConcept = #EDQM-DF
+* extension[drugCharacteristic][=].extension[characteristicValue].valueCodeableConcept = #10223000 // orodispersible tablet for sake of example
+* extension[drugCharacteristic][+].extension[characteristicType].valueCodeableConcept = #SUBS
+* extension[drugCharacteristic][=].extension[characteristicValue].valueCodeableConcept = #10220XXX // amlodipine besilate for sake of example
 
 

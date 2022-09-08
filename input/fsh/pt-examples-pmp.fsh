@@ -26,7 +26,7 @@ Usage:        #example
 * definitional.ingredient[=].item.concept.text = "Amlodipina"
 * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-* packaging.extension[packageSize].valueQuantity  = 30 'units'
+* packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -62,7 +62,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -98,7 +98,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -134,7 +134,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -170,7 +170,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -206,7 +206,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -242,7 +242,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -278,7 +278,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -314,7 +314,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -350,7 +350,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -386,7 +386,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -422,7 +422,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -458,7 +458,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -494,7 +494,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -530,7 +530,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -566,7 +566,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -602,7 +602,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -638,7 +638,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -674,7 +674,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -710,7 +710,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -746,7 +746,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -782,7 +782,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -818,7 +818,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -854,7 +854,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -890,7 +890,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -926,7 +926,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -962,7 +962,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -998,7 +998,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1034,7 +1034,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1070,7 +1070,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1106,7 +1106,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1142,7 +1142,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1178,7 +1178,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1214,7 +1214,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1250,7 +1250,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1286,7 +1286,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1322,7 +1322,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1358,7 +1358,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1394,7 +1394,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1430,7 +1430,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1466,7 +1466,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1502,7 +1502,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1538,7 +1538,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1574,7 +1574,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1610,7 +1610,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1646,7 +1646,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1682,7 +1682,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1718,7 +1718,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1754,7 +1754,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1790,7 +1790,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1826,7 +1826,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1862,7 +1862,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1898,7 +1898,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1934,7 +1934,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -1970,7 +1970,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2006,7 +2006,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2042,7 +2042,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2078,7 +2078,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2114,7 +2114,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2150,7 +2150,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2186,7 +2186,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2222,7 +2222,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2258,7 +2258,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2294,7 +2294,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2330,7 +2330,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2366,7 +2366,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2402,7 +2402,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2438,7 +2438,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2474,7 +2474,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2510,7 +2510,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2546,7 +2546,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2582,7 +2582,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2618,7 +2618,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2654,7 +2654,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2690,7 +2690,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2726,7 +2726,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2762,7 +2762,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2798,7 +2798,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2834,7 +2834,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2870,7 +2870,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2906,7 +2906,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2942,7 +2942,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -2978,7 +2978,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3014,7 +3014,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3050,7 +3050,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3086,7 +3086,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3122,7 +3122,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3158,7 +3158,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3194,7 +3194,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3230,7 +3230,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3266,7 +3266,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3302,7 +3302,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3338,7 +3338,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3374,7 +3374,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3410,7 +3410,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3446,7 +3446,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3482,7 +3482,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3518,7 +3518,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3554,7 +3554,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3590,7 +3590,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3626,7 +3626,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3662,7 +3662,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3698,7 +3698,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3734,7 +3734,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3770,7 +3770,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3806,7 +3806,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3842,7 +3842,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3878,7 +3878,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3914,7 +3914,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3950,7 +3950,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -3986,7 +3986,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4022,7 +4022,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4058,7 +4058,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4094,7 +4094,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4130,7 +4130,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4166,7 +4166,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4202,7 +4202,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4238,7 +4238,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4274,7 +4274,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4310,7 +4310,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4346,7 +4346,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4382,7 +4382,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4418,7 +4418,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4454,7 +4454,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4490,7 +4490,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4526,7 +4526,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4562,7 +4562,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 500 'units'
+// * packaging.extension[packageSize].valueQuantity  = 500 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4598,7 +4598,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 500 'units'
+// * packaging.extension[packageSize].valueQuantity  = 500 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4634,7 +4634,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4670,7 +4670,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4706,7 +4706,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4742,7 +4742,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4778,7 +4778,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4814,7 +4814,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 500 'units'
+// * packaging.extension[packageSize].valueQuantity  = 500 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4850,7 +4850,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4886,7 +4886,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4922,7 +4922,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 500 'units'
+// * packaging.extension[packageSize].valueQuantity  = 500 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4958,7 +4958,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -4994,7 +4994,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5030,7 +5030,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5066,7 +5066,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5102,7 +5102,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5138,7 +5138,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5174,7 +5174,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5210,7 +5210,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5246,7 +5246,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5282,7 +5282,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5318,7 +5318,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5354,7 +5354,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5390,7 +5390,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5426,7 +5426,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5462,7 +5462,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5498,7 +5498,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5534,7 +5534,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5570,7 +5570,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5606,7 +5606,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5642,7 +5642,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5678,7 +5678,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5714,7 +5714,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5750,7 +5750,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5786,7 +5786,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5822,7 +5822,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5858,7 +5858,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5894,7 +5894,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5930,7 +5930,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -5966,7 +5966,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6002,7 +6002,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6038,7 +6038,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6074,7 +6074,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6110,7 +6110,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6146,7 +6146,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6182,7 +6182,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6218,7 +6218,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6254,7 +6254,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6290,7 +6290,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6326,7 +6326,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6362,7 +6362,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6398,7 +6398,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6434,7 +6434,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6470,7 +6470,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6506,7 +6506,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6542,7 +6542,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 500 'units'
+// * packaging.extension[packageSize].valueQuantity  = 500 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6578,7 +6578,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6614,7 +6614,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 500 'units'
+// * packaging.extension[packageSize].valueQuantity  = 500 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6650,7 +6650,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6686,7 +6686,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6722,7 +6722,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6758,7 +6758,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 84 'units'
+// * packaging.extension[packageSize].valueQuantity  = 84 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6794,7 +6794,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6830,7 +6830,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 250 'units'
+// * packaging.extension[packageSize].valueQuantity  = 250 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6866,7 +6866,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 500 'units'
+// * packaging.extension[packageSize].valueQuantity  = 500 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6902,7 +6902,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 250 'units'
+// * packaging.extension[packageSize].valueQuantity  = 250 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6938,7 +6938,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 500 'units'
+// * packaging.extension[packageSize].valueQuantity  = 500 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -6974,7 +6974,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7010,7 +7010,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7046,7 +7046,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7082,7 +7082,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7118,7 +7118,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 84 'units'
+// * packaging.extension[packageSize].valueQuantity  = 84 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7154,7 +7154,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 15 'units'
+// * packaging.extension[packageSize].valueQuantity  = 15 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7190,7 +7190,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7226,7 +7226,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7262,7 +7262,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7298,7 +7298,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7334,7 +7334,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7370,7 +7370,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7406,7 +7406,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7442,7 +7442,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7478,7 +7478,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7514,7 +7514,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7550,7 +7550,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7586,7 +7586,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7622,7 +7622,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7658,7 +7658,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7694,7 +7694,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7730,7 +7730,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7766,7 +7766,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7802,7 +7802,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7838,7 +7838,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7874,7 +7874,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7910,7 +7910,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7946,7 +7946,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -7982,7 +7982,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8018,7 +8018,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8054,7 +8054,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8090,7 +8090,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8126,7 +8126,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8162,7 +8162,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8198,7 +8198,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 15 'units'
+// * packaging.extension[packageSize].valueQuantity  = 15 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8234,7 +8234,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8270,7 +8270,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8306,7 +8306,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8342,7 +8342,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8378,7 +8378,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8414,7 +8414,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 50 'units'
+// * packaging.extension[packageSize].valueQuantity  = 50 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8450,7 +8450,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 98 'units'
+// * packaging.extension[packageSize].valueQuantity  = 98 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8486,7 +8486,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8522,7 +8522,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8558,7 +8558,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8594,7 +8594,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8630,7 +8630,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 50 'units'
+// * packaging.extension[packageSize].valueQuantity  = 50 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8666,7 +8666,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8702,7 +8702,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 98 'units'
+// * packaging.extension[packageSize].valueQuantity  = 98 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8738,7 +8738,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 100 'units'
+// * packaging.extension[packageSize].valueQuantity  = 100 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8774,7 +8774,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8810,7 +8810,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8846,7 +8846,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8882,7 +8882,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 50 'units'
+// * packaging.extension[packageSize].valueQuantity  = 50 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8918,7 +8918,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 50 'units'
+// * packaging.extension[packageSize].valueQuantity  = 50 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8954,7 +8954,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -8990,7 +8990,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 15 'units'
+// * packaging.extension[packageSize].valueQuantity  = 15 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9026,7 +9026,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9062,7 +9062,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 50 'units'
+// * packaging.extension[packageSize].valueQuantity  = 50 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9098,7 +9098,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 50 'units'
+// * packaging.extension[packageSize].valueQuantity  = 50 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9134,7 +9134,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9176,7 +9176,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9218,7 +9218,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9254,7 +9254,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9290,7 +9290,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9326,7 +9326,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 90 'units'
+// * packaging.extension[packageSize].valueQuantity  = 90 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9362,7 +9362,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9398,7 +9398,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9434,7 +9434,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9470,7 +9470,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9506,7 +9506,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9542,7 +9542,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9578,7 +9578,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9614,7 +9614,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9650,7 +9650,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9686,7 +9686,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9728,7 +9728,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9770,7 +9770,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9812,7 +9812,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9854,7 +9854,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9902,7 +9902,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9950,7 +9950,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -9998,7 +9998,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10046,7 +10046,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10094,7 +10094,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10130,7 +10130,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10166,7 +10166,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10208,7 +10208,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10250,7 +10250,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10286,7 +10286,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10322,7 +10322,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10358,7 +10358,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10406,7 +10406,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10448,7 +10448,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10490,7 +10490,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10532,7 +10532,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10574,7 +10574,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10616,7 +10616,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10658,7 +10658,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10700,7 +10700,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10742,7 +10742,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10778,7 +10778,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10814,7 +10814,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10850,7 +10850,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10892,7 +10892,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10934,7 +10934,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -10976,7 +10976,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11018,7 +11018,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11060,7 +11060,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11102,7 +11102,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11144,7 +11144,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11186,7 +11186,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11228,7 +11228,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11270,7 +11270,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11312,7 +11312,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11354,7 +11354,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11396,7 +11396,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11438,7 +11438,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11480,7 +11480,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11522,7 +11522,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11564,7 +11564,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11606,7 +11606,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11648,7 +11648,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11690,7 +11690,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11732,7 +11732,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11774,7 +11774,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11816,7 +11816,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11858,7 +11858,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11894,7 +11894,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11930,7 +11930,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -11966,7 +11966,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12002,7 +12002,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 20 'units'
+// * packaging.extension[packageSize].valueQuantity  = 20 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12038,7 +12038,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12074,7 +12074,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12116,7 +12116,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12158,7 +12158,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 28 'units'
+// * packaging.extension[packageSize].valueQuantity  = 28 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12200,7 +12200,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 30 'units'
+// * packaging.extension[packageSize].valueQuantity  = 30 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12242,7 +12242,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12278,7 +12278,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 10 'units'
+// * packaging.extension[packageSize].valueQuantity  = 10 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12320,7 +12320,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12362,7 +12362,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12404,7 +12404,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12446,7 +12446,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Candesartan"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 56 'units'
+// * packaging.extension[packageSize].valueQuantity  = 56 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12488,7 +12488,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 14 'units'
+// * packaging.extension[packageSize].valueQuantity  = 14 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12524,7 +12524,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"
@@ -12560,7 +12560,7 @@ Usage:        #example
 // * definitional.ingredient[=].item.concept.text = "Amlodipina"
 // * definitional.ingredient[=].type = pt-ingredient-role-cs#1
 
-// * packaging.extension[packageSize].valueQuantity  = 60 'units'
+// * packaging.extension[packageSize].valueQuantity  = 60 'u'
 
  
 // * definitional.intendedRoute[EDQM-RoA][+].coding = EDQM_ROUTE_CS#20053000 "Oral use"

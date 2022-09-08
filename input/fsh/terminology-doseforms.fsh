@@ -2,7 +2,7 @@ CodeSystem: EDQM_DOSEFORM_ONT_CS
 Id:         edqm-doseform-ont-cs
 Title:     "Dose Form Ontology Code System"
 
-* ^url = "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"
+* ^url = "http://medigree.net/fhir/mpd5/CodeSystem/edqm-doseform-ont-cs"
 
 * ^property[+].code = #child
 * ^property[=].type = #code

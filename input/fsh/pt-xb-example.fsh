@@ -19,7 +19,7 @@ Usage:        #example
 * definitional.ingredient[=].item.concept.coding[+] = SubstanceOntologyCS#10220XXX
 
 * definitional.ingredient.strengthQuantity = 5 'mg'
-* packaging.extension[PackageSize].valueQuantity  = 20 'units'
+* packaging.extension[PackageSize].valueQuantity  = 20 'u'
 
 
 Instance: pt-cnpem-xb-50013343
@@ -42,7 +42,7 @@ Usage:        #example
 * definitional.ingredient[=].item.concept.coding[+] = SubstanceOntologyCS#10220XXX
 
 * definitional.ingredient.strengthQuantity = 5 'mg'
-* packaging.extension[PackageSize].valueQuantity  = 60 'units'
+* packaging.extension[PackageSize].valueQuantity  = 60 'u'
 
 
 
@@ -66,7 +66,7 @@ Usage:        #example
 * definitional.ingredient[=].item.concept.coding[+] = SubstanceOntologyCS#10220XXX
 
 * definitional.ingredient.strengthQuantity = 10 'mg'
-* packaging.extension[PackageSize].valueQuantity  = 30 'units'
+* packaging.extension[PackageSize].valueQuantity  = 30 'u'
 
 
 
@@ -90,6 +90,6 @@ Usage:        #example
 * definitional.ingredient[=].item.concept.coding[+] = SubstanceOntologyCS#10220XXX
 
 * definitional.ingredient.strengthQuantity = 10 'mg'
-* packaging.extension[PackageSize].valueQuantity  = 60 'units'
+* packaging.extension[PackageSize].valueQuantity  = 60 'u'
 
 
