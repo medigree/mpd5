@@ -42,8 +42,8 @@ publisher:
 pages:
   index.md:
     title: Home
-  ee.md:
-    title: Estonia
+#  ee.md:
+#    title: Estonia
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
