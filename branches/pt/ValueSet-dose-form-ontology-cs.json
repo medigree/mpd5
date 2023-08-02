@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "dose-form-ontology-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-edqm-doseform-ont-cs.html\"><code>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</code></a></li></ul></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs",
+  "version": "0.1.0",
+  "name": "EDQM_DOSEFORM_ONT_VS",
+  "title": "Dose Form ontology Value Set",
+  "status": "active",
+  "date": "2022-08-29T19:31:01+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"
+      }
+    ]
+  }
+}

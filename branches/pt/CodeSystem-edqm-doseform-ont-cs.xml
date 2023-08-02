@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="edqm-doseform-ont-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td/></tr></table><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style="white-space:nowrap">10219000<a name="edqm-doseform-ont-cs-10219000"> </a></td><td>Tablet</td><td>Tablet</td><td>10223000, 10226000, 10228000, 10220000</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  10223000<a name="edqm-doseform-ont-cs-10223000"> </a></td><td>Orodispersible tablet</td><td>Orodispersible tablet</td><td/><td>10219000</td></tr><tr><td>2</td><td style="white-space:nowrap">  10226000<a name="edqm-doseform-ont-cs-10226000"> </a></td><td>Prolonged-release tablet</td><td>Prolonged-release tablet</td><td/><td>10219000</td></tr><tr><td>2</td><td style="white-space:nowrap">  10228000<a name="edqm-doseform-ont-cs-10228000"> </a></td><td>Chewable tablet</td><td>Chewable tablet</td><td/><td>10219000</td></tr><tr><td>2</td><td style="white-space:nowrap">  10220000<a name="edqm-doseform-ont-cs-10220000"> </a></td><td>Coated tablet</td><td>Coated tablet</td><td/><td>10219000</td></tr><tr><td>3</td><td style="white-space:nowrap">    10221000<a name="edqm-doseform-ont-cs-10221000"> </a></td><td>Film-coated tablet</td><td>Film-coated tablet</td><td/><td>10220000</td></tr><tr><td>1</td><td style="white-space:nowrap">12100<a name="edqm-doseform-ont-cs-12100"> </a></td><td>Capsule</td><td>Capsule</td><td>10210000, 10211000, 10214000</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  10210000<a name="edqm-doseform-ont-cs-10210000"> </a></td><td>Capsule, hard</td><td>Capsule, hard</td><td/><td>12100</td></tr><tr><td>2</td><td style="white-space:nowrap">  10211000<a name="edqm-doseform-ont-cs-10211000"> </a></td><td>Capsule, soft</td><td>Capsule, soft</td><td/><td>12100</td></tr><tr><td>2</td><td style="white-space:nowrap">  10214000<a name="edqm-doseform-ont-cs-10214000"> </a></td><td>Chewable capsule, soft</td><td>Chewable capsule, soft</td><td/><td>12100</td></tr></table></div>
+  </text>
+  <url value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+  <version value="0.1.0"/>
+  <name value="EDQM_DOSEFORM_ONT_CS"/>
+  <title value="Dose Form Ontology Code System"/>
+  <status value="active"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <property>
+    <code value="child"/>
+    <uri value="http://hl7.org/fhir/concept-properties#child"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="parent"/>
+    <uri value="http://hl7.org/fhir/concept-properties#parent"/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="10219000"/>
+    <display value="Tablet"/>
+    <definition value="Tablet"/>
+    <property>
+      <code value="child"/>
+      <valueCode value="10223000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="10226000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="10228000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="10220000"/>
+    </property>
+    <concept>
+      <code value="10223000"/>
+      <display value="Orodispersible tablet"/>
+      <definition value="Orodispersible tablet"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="10219000"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="10226000"/>
+      <display value="Prolonged-release tablet"/>
+      <definition value="Prolonged-release tablet"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="10219000"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="10228000"/>
+      <display value="Chewable tablet"/>
+      <definition value="Chewable tablet"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="10219000"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="10220000"/>
+      <display value="Coated tablet"/>
+      <definition value="Coated tablet"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="10219000"/>
+      </property>
+      <concept>
+        <code value="10221000"/>
+        <display value="Film-coated tablet"/>
+        <definition value="Film-coated tablet"/>
+        <property>
+          <code value="parent"/>
+          <valueCode value="10220000"/>
+        </property>
+      </concept>
+    </concept>
+  </concept>
+  <concept>
+    <code value="12100"/>
+    <display value="Capsule"/>
+    <definition value="Capsule"/>
+    <property>
+      <code value="child"/>
+      <valueCode value="10210000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="10211000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="10214000"/>
+    </property>
+    <concept>
+      <code value="10210000"/>
+      <display value="Capsule, hard"/>
+      <definition value="Capsule, hard"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="12100"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="10211000"/>
+      <display value="Capsule, soft"/>
+      <definition value="Capsule, soft"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="12100"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="10214000"/>
+      <display value="Chewable capsule, soft"/>
+      <definition value="Chewable capsule, soft"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="12100"/>
+      </property>
+    </concept>
+  </concept>
+</CodeSystem>

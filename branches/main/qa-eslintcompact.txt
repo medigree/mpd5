@@ -1,0 +1,19 @@
+﻿/github/workspace/fsh-generated/resources/CodeSystem-dose-form-ontology-cs.json: line 0, col 0, Info - CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/CodeSystem-dose-form-ontology-cs.json: line 1, col 2806, Warning - The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-dose-form-ontology-cs.json: line 1, col 2806, Warning - The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-dose-form-ontology-cs.json: line 1, col 2806, Warning - The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-substance-ontology-cs.json: line 0, col 0, Info - CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/CodeSystem-substance-ontology-cs.json: line 1, col 2506, Warning - The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-substance-ontology-cs.json: line 1, col 2506, Warning - The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-substance-ontology-cs.json: line 1, col 2506, Warning - The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/ValueSet-dose-form-ontology-vs.json: line 1, col 742, Warning - The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile (REQUIRED)
+/github/workspace/fsh-generated/resources/ValueSet-dose-form-ontology-vs.json: line 1, col 742, Warning - The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile (REQUIRED)
+/github/workspace/fsh-generated/resources/ValueSet-substance-ontology-vs.json: line 1, col 743, Warning - The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile (REQUIRED)
+/github/workspace/fsh-generated/resources/ValueSet-substance-ontology-vs.json: line 1, col 743, Warning - The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile (REQUIRED)
+
+MPD5 : Validation Results
+=========================================
+
+err = 0, warn = 18, info = 2
+IG Publisher Version: 1.3.25
+Generated Wed Aug 02 19:29:34 UTC 2023. FHIR version 5.0.0 for medigree.fhir.mpd5#0.1.0 (canonical = http://medigree.net/fhir/mpd5)

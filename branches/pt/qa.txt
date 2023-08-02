@@ -1,0 +1,145 @@
+﻿MPD5 : Validation Results
+=========================================
+
+err = 14, warn = 37, info = 10
+IG Publisher Version: 1.1.128
+Generated Mon Aug 29 19:31:52 UTC 2022. FHIR version 5.0.0-snapshot1 for medigree.fhir.mpd5#0.1.0 (canonical = http://medigree.net/fhir/mpd5)
+ Build Errors : 1 / 23 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-Cs-med-relation-types : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-edqm-doseform-ont-cs : 1 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-edqm-route-cs : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-prod-type-cs : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-pt-doseform-cs : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-pt-ingredient-item-cs : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-pt-ingredient-role-cs : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-pt-route-cs : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-substance-ontology-cs : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-medigree.fhir.mpd5 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Medication-transmittedMedExample1 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-cnpem-50013335 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-cnpem-50013343 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-cnpem-50013351 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-cnpem-50013360 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-cnpem-xb-50013335 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-cnpem-xb-50013343 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-cnpem-xb-50013351 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-cnpem-xb-50013360 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-pt-pmp-10424 : 1 / 2 / 2
+ /github/workspace/fsh-generated/resources/MedicationRequest-AmlodipineReq : 1 / 2 / 1
+ /github/workspace/fsh-generated/resources/SearchParameter-sp-mpd-name-country : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DefinedMed : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-IdentifiableMedication : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PTCNPEM : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PTCNPEMXB : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PTPackagedMedicinalProduct : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-XBMedicationRequest : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-definedMedication : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-drugCharacteristic : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-medRelation : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-package-size : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-relatedMedication : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-dose-form-ontology-cs : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-prod-type-vs : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-substance-ontology-vs : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-med-relation-types : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/DefinedMed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PTCNPEMXB.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/XBMedicationRequest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/definedMedication.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/medRelation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/dose-form-ontology-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/substance-ontology-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/edqm-doseform-ont-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/edqm-route-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/pt-ingredient-role-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/pt-ingredient-item-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/substance-ontology-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/AmlodipineReq.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-cnpem-50013335.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-cnpem-50013343.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-cnpem-50013351.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-cnpem-50013360.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-cnpem-xb-50013335.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-cnpem-xb-50013343.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-cnpem-xb-50013351.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-cnpem-xb-50013360.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/pt-pmp-10424.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/transmittedMedExample1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/MedicationRequest-AmlodipineReq.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 178, column 613: The link 'xbmed1' for "xbmed1" cannot be resolved
+== fsh-generated/resources/CodeSystem-Cs-med-relation-types.json ==
+INFORMATION: CodeSystem/Cs-med-relation-types: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-edqm-doseform-ont-cs.json ==
+ERROR: CodeSystem.url: Resource id/url mismatch: edqm-doseform-ont-cs/http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs
+INFORMATION: CodeSystem/edqm-doseform-ont-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-edqm-route-cs.json ==
+INFORMATION: CodeSystem/edqm-route-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-prod-type-cs.json ==
+ERROR: CodeSystem.concept[4].property[0]: Unrecognised property '@valueString'
+ERROR: CodeSystem.concept[5].property[0]: Unrecognised property '@valueString'
+INFORMATION: CodeSystem/prod-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-pt-doseform-cs.json ==
+INFORMATION: CodeSystem/pt-doseform-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-pt-ingredient-item-cs.json ==
+INFORMATION: CodeSystem/pt-ingredient-item-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-pt-ingredient-role-cs.json ==
+INFORMATION: CodeSystem/pt-ingredient-role-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-pt-route-cs.json ==
+INFORMATION: CodeSystem/pt-route-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-substance-ontology-cs.json ==
+INFORMATION: CodeSystem/substance-ontology-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/ImplementationGuide-medigree.fhir.mpd5.json ==
+== fsh-generated/resources/Medication-transmittedMedExample1.json ==
+WARNING: Medication/transmittedMedExample1: Medication.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Medication/transmittedMedExample1: Medication.extension[0].extension[1]: Rule ext-1: 'Must have either extensions or value[x], not both' Failed
+== fsh-generated/resources/MedicationKnowledge-pt-cnpem-50013335.json ==
+WARNING: MedicationKnowledge/pt-cnpem-50013335: MedicationKnowledge.code.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-cnpem-50013335: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationKnowledge-pt-cnpem-50013343.json ==
+WARNING: MedicationKnowledge/pt-cnpem-50013343: MedicationKnowledge.code.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-cnpem-50013343: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationKnowledge-pt-cnpem-50013351.json ==
+WARNING: MedicationKnowledge/pt-cnpem-50013351: MedicationKnowledge.code.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-cnpem-50013351: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationKnowledge-pt-cnpem-50013360.json ==
+WARNING: MedicationKnowledge/pt-cnpem-50013360: MedicationKnowledge.code.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-cnpem-50013360: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationKnowledge-pt-cnpem-xb-50013335.json ==
+WARNING: MedicationKnowledge/pt-cnpem-xb-50013335: MedicationKnowledge.code.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-cnpem-xb-50013335: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationKnowledge-pt-cnpem-xb-50013343.json ==
+WARNING: MedicationKnowledge/pt-cnpem-xb-50013343: MedicationKnowledge.code.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-cnpem-xb-50013343: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationKnowledge-pt-cnpem-xb-50013351.json ==
+WARNING: MedicationKnowledge/pt-cnpem-xb-50013351: MedicationKnowledge.code.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-cnpem-xb-50013351: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationKnowledge-pt-cnpem-xb-50013360.json ==
+WARNING: MedicationKnowledge/pt-cnpem-xb-50013360: MedicationKnowledge.code.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-cnpem-xb-50013360: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationKnowledge-pt-pmp-10424.json ==
+INFORMATION: MedicationKnowledge/pt-pmp-10424: MedicationKnowledge.code.coding[0]: Code System URI 'http://www.medigree.net/identifiable-product-identifier-type' is unknown so the code cannot be validated
+WARNING: MedicationKnowledge/pt-pmp-10424: MedicationKnowledge.medicineClassification[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: MedicationKnowledge/pt-pmp-10424: MedicationKnowledge.medicineClassification[0].classification[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationKnowledge/pt-pmp-10424: MedicationKnowledge.packaging[0].extension[0].value.ofType(Quantity): Error processing Unit: 'units': The unit "units" is unknown at character 1; The code "units" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#units) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#units'
+== fsh-generated/resources/MedicationRequest-AmlodipineReq.json ==
+WARNING: MedicationRequest/AmlodipineReq: MedicationRequest.extension[0].extension[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+ERROR: MedicationRequest/AmlodipineReq: MedicationRequest.extension[0].extension[1].value.ofType(Reference): Unable to resolve resource with reference 'xbmed1'
+WARNING: MedicationRequest/AmlodipineReq: MedicationRequest.medication.concept.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/SearchParameter-sp-mpd-name-country.json ==
+== fsh-generated/resources/StructureDefinition-DefinedMed.json ==
+== fsh-generated/resources/StructureDefinition-IdentifiableMedication.json ==
+WARNING: StructureDefinition.where(url = 'http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-PTCNPEM.json ==
+== fsh-generated/resources/StructureDefinition-PTCNPEMXB.json ==
+== fsh-generated/resources/StructureDefinition-PTPackagedMedicinalProduct.json ==
+== fsh-generated/resources/StructureDefinition-XBMedicationRequest.json ==
+== fsh-generated/resources/StructureDefinition-definedMedication.json ==
+== fsh-generated/resources/StructureDefinition-drugCharacteristic.json ==
+== fsh-generated/resources/StructureDefinition-medRelation.json ==
+== fsh-generated/resources/StructureDefinition-package-size.json ==
+== fsh-generated/resources/StructureDefinition-relatedMedication.json ==
+== fsh-generated/resources/ValueSet-dose-form-ontology-cs.json ==
+== fsh-generated/resources/ValueSet-prod-type-vs.json ==
+== fsh-generated/resources/ValueSet-substance-ontology-vs.json ==
+== fsh-generated/resources/ValueSet-vs-med-relation-types.json ==

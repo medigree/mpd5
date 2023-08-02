@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="201b940f-a235-4df2-a4dd-d140bb33ccb8"/>
+  <meta>
+    <lastUpdated value="2022-08-29T19:31:01.601+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs"/>
+    <resource>
+      <ValueSet>
+        <id value="dose-form-ontology-cs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 10 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-edqm-doseform-ont-cs.html">Dose Form Ontology Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-edqm-doseform-ont-cs.html">
+                <code>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10219000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10219000">10219000</a>
+                </td>
+                <td>Tablet</td>
+                <td>Tablet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10223000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10223000">10223000</a>
+                </td>
+                <td>Orodispersible tablet</td>
+                <td>Orodispersible tablet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10226000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10226000">10226000</a>
+                </td>
+                <td>Prolonged-release tablet</td>
+                <td>Prolonged-release tablet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10228000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10228000">10228000</a>
+                </td>
+                <td>Chewable tablet</td>
+                <td>Chewable tablet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10220000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10220000">10220000</a>
+                </td>
+                <td>Coated tablet</td>
+                <td>Coated tablet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10221000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10221000">10221000</a>
+                </td>
+                <td>Film-coated tablet</td>
+                <td>Film-coated tablet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-12100"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-12100">12100</a>
+                </td>
+                <td>Capsule</td>
+                <td>Capsule</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10210000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10210000">10210000</a>
+                </td>
+                <td>Capsule, hard</td>
+                <td>Capsule, hard</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10211000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10211000">10211000</a>
+                </td>
+                <td>Capsule, soft</td>
+                <td>Capsule, soft</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10214000"> </a>  
+                  <a href="CodeSystem-edqm-doseform-ont-cs.html#edqm-doseform-ont-cs-10214000">10214000</a>
+                </td>
+                <td>Chewable capsule, soft</td>
+                <td>Chewable capsule, soft</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs"/>
+        <version value="0.1.0"/>
+        <name value="EDQM_DOSEFORM_ONT_VS"/>
+        <title value="Dose Form ontology Value Set"/>
+        <status value="active"/>
+        <date value="2022-08-29T19:31:01+00:00"/>
+        <publisher value="Medigree"/>
+        <contact>
+          <name value="Medigree"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://medigree.net"/>
+          </telecom>
+        </contact>
+        <expansion>
+          <identifier value="urn:uuid:a545cb06-e884-41d3-b0f7-d522483bd403"/>
+          <timestamp value="2022-08-29T19:31:25+00:00"/>
+          <total value="10"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10219000"/>
+            <display value="Tablet"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10223000"/>
+            <display value="Orodispersible tablet"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10226000"/>
+            <display value="Prolonged-release tablet"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10228000"/>
+            <display value="Chewable tablet"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10220000"/>
+            <display value="Coated tablet"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10221000"/>
+            <display value="Film-coated tablet"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="12100"/>
+            <display value="Capsule"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10210000"/>
+            <display value="Capsule, hard"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10211000"/>
+            <display value="Capsule, soft"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10214000"/>
+            <display value="Chewable capsule, soft"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://medigree.github.io/mpd5/ValueSet/prod-type-cs"/>
+    <resource>
+      <ValueSet>
+        <id value="prod-type-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 9 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-prod-type-cs.html">Product Types code system v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-prod-type-cs.html">
+                <code>https://medigree.github.io/mpd5/CodeSystem/prod-type-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-IDMP-PhP"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-IDMP_PhP">IDMP_PhP</a>
+                </td>
+                <td>IDMP Pharmaceutical Product</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-IDMP-MP"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-IDMP_MP">IDMP_MP</a>
+                </td>
+                <td>IDMP Medicinal Product</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-IDMP-PP"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-IDMP_PP">IDMP_PP</a>
+                </td>
+                <td>IDMP Packaged Medicinal Product</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-BE-MP"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-BE_MP">BE_MP</a>
+                </td>
+                <td>Belgian Medicinal Product</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-BE-VMP"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-BE_VMP">BE_VMP</a>
+                </td>
+                <td>Virtual Medicinal Product</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-BE-AMP"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-BE_AMP">BE_AMP</a>
+                </td>
+                <td>Actual Medicinal Product</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-PT-CNPEM"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-PT-CNPEM">PT-CNPEM</a>
+                </td>
+                <td>PT-CNPEM</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-PT-PMP"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-PT-PMP">PT-PMP</a>
+                </td>
+                <td>PT-PMP</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---medigree.github.io-mpd5-CodeSystem-prod-type-cs-ePI"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-ePI">ePI</a>
+                </td>
+                <td>ePI</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://medigree.github.io/mpd5/ValueSet/prod-type-cs"/>
+        <version value="0.1.0"/>
+        <name value="ProductTypeVS"/>
+        <title value="Product Types Value Set"/>
+        <status value="active"/>
+        <date value="2022-08-29T19:31:01+00:00"/>
+        <publisher value="Medigree"/>
+        <contact>
+          <name value="Medigree"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://medigree.net"/>
+          </telecom>
+        </contact>
+        <description value="Product Types Value Set."/>
+        <expansion>
+          <identifier value="urn:uuid:c35c39c1-aad4-4ba3-a612-83fd08b42038"/>
+          <timestamp value="2022-08-29T19:31:25+00:00"/>
+          <total value="9"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="IDMP_PhP"/>
+            <display value="IDMP Pharmaceutical Product"/>
+          </contains>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="IDMP_MP"/>
+            <display value="IDMP Medicinal Product"/>
+          </contains>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="IDMP_PP"/>
+            <display value="IDMP Packaged Medicinal Product"/>
+          </contains>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="BE_MP"/>
+            <display value="Belgian Medicinal Product"/>
+          </contains>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="BE_VMP"/>
+            <display value="Virtual Medicinal Product"/>
+          </contains>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="BE_AMP"/>
+            <display value="Actual Medicinal Product"/>
+          </contains>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="PT-CNPEM"/>
+            <display value="PT-CNPEM"/>
+          </contains>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="PT-PMP"/>
+            <display value="PT-PMP"/>
+          </contains>
+          <contains>
+            <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+            <code value="ePI"/>
+            <display value="ePI"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="substance-ontology-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-substance-ontology-cs.html">Substance Ontology Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-substance-ontology-cs.html">
+                <code>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-20053000"> </a>  
+                  <a href="CodeSystem-substance-ontology-cs.html#substance-ontology-cs-20053000">20053000</a>
+                </td>
+                <td>Amlodipine</td>
+                <td>Amlodipine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-10220XXX"> </a>  
+                  <a href="CodeSystem-substance-ontology-cs.html#substance-ontology-cs-10220XXX">10220XXX</a>
+                </td>
+                <td>Amlodipine Besilate</td>
+                <td>Amlodipine Besilate</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-10220XXX1"> </a>  
+                  <a href="CodeSystem-substance-ontology-cs.html#substance-ontology-cs-10220XXX1">10220XXX1</a>
+                </td>
+                <td>Amlodipine Mesilate</td>
+                <td>Amlodipine Mesilate</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs"/>
+        <version value="0.1.0"/>
+        <name value="SubstanceOntologyVS"/>
+        <title value="Substance ontology Value Set"/>
+        <status value="active"/>
+        <date value="2022-08-29T19:31:01+00:00"/>
+        <publisher value="Medigree"/>
+        <contact>
+          <name value="Medigree"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://medigree.net"/>
+          </telecom>
+        </contact>
+        <expansion>
+          <identifier value="urn:uuid:8da1106c-28fc-4a96-aeac-a5cf94103ef5"/>
+          <timestamp value="2022-08-29T19:31:25+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"/>
+            <code value="20053000"/>
+            <display value="Amlodipine"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"/>
+            <code value="10220XXX"/>
+            <display value="Amlodipine Besilate"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"/>
+            <code value="10220XXX1"/>
+            <display value="Amlodipine Mesilate"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://medigree.net/fhir/mpd5/ValueSet/vs-med-relation-types"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-med-relation-types"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-Cs-med-relation-types.html">Medication Relation Types v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-Cs-med-relation-types.html">
+                <code>http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-Cs-med-relation-types-same"> </a>  
+                  <a href="CodeSystem-Cs-med-relation-types.html#Cs-med-relation-types-same">same</a>
+                </td>
+                <td>same</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://medigree.net/fhir/mpd5/ValueSet/vs-med-relation-types"/>
+        <version value="0.1.0"/>
+        <name value="VSMedRelationTypes"/>
+        <title value="Medication Relation Types"/>
+        <status value="active"/>
+        <date value="2022-08-29T19:31:01+00:00"/>
+        <publisher value="Medigree"/>
+        <contact>
+          <name value="Medigree"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://medigree.net"/>
+          </telecom>
+        </contact>
+        <description value="Medication Relation Types."/>
+        <expansion>
+          <identifier value="urn:uuid:245987b8-cf7a-4e2e-87be-b74d1b4786ca"/>
+          <timestamp value="2022-08-29T19:31:25+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types"/>
+            <code value="same"/>
+            <display value="same"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

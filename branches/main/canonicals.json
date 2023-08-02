@@ -1,0 +1,44 @@
+[
+  {
+    "id" : "dose-form-ontology-cs",
+    "type" : "CodeSystem",
+    "url" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+    "version" : "0.1.0",
+    "name" : "DoseFormOntologyCS"
+  },
+  {
+    "id" : "substance-ontology-cs",
+    "type" : "CodeSystem",
+    "url" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+    "version" : "0.1.0",
+    "name" : "SubstanceOntologyCS"
+  },
+  {
+    "id" : "medigree.fhir.mpd5",
+    "type" : "ImplementationGuide",
+    "url" : "http://medigree.net/fhir/mpd5/ImplementationGuide/medigree.fhir.mpd5",
+    "version" : "0.1.0",
+    "name" : "MPD5"
+  },
+  {
+    "id" : "IdentifiableMedication",
+    "type" : "StructureDefinition",
+    "url" : "http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication",
+    "version" : "0.1.0",
+    "name" : "IdentifiableMedication"
+  },
+  {
+    "id" : "dose-form-ontology-vs",
+    "type" : "ValueSet",
+    "url" : "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-vs",
+    "version" : "0.1.0",
+    "name" : "DoseFormOntologyVS"
+  },
+  {
+    "id" : "substance-ontology-vs",
+    "type" : "ValueSet",
+    "url" : "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
+    "version" : "0.1.0",
+    "name" : "SubstanceOntologyVS"
+  }
+]

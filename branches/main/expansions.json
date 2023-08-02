@@ -1,0 +1,101 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "24af68dd-2845-4630-b002-11ccff70ae6b",
+  "meta" : {
+    "lastUpdated" : "2023-08-02T19:28:52.220+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-dose-form-ontology-cs.html\">Dose Form Ontology Code System v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-20053000\"> </a>\u00a0\u00a0<a href=\"CodeSystem-dose-form-ontology-cs.html#dose-form-ontology-cs-20053000\">20053000</a></td><td>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</td><td>Oral use</td><td><div><p>Oral Use</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10220XXX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-dose-form-ontology-cs.html#dose-form-ontology-cs-10220XXX\">10220XXX</a></td><td>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</td><td>Capsule</td><td><div><p>Capsule</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10220000\"> </a>\u00a0\u00a0<a href=\"CodeSystem-dose-form-ontology-cs.html#dose-form-ontology-cs-10220000\">10220000</a></td><td>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</td><td>Tablet</td><td><div><p>Tablet</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10318000\"> </a>\u00a0\u00a0<a href=\"CodeSystem-dose-form-ontology-cs.html#dose-form-ontology-cs-10318000\">10318000</a></td><td>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</td><td>Sublingual tablet</td><td><div><p>Sublingual tablet</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-vs",
+      "version" : "0.1.0",
+      "name" : "DoseFormOntologyVS",
+      "title" : "Dose Form ontology Value Set",
+      "status" : "draft",
+      "date" : "2023-08-02T19:28:52+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:607b8b7a-1fba-4f53-a627-576cf3a50916",
+        "timestamp" : "2023-08-02T19:29:16+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "20053000",
+          "display" : "Oral use"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10220XXX",
+          "display" : "Capsule"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10220000",
+          "display" : "Tablet"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+          "code" : "10318000",
+          "display" : "Sublingual tablet"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-substance-ontology-cs.html\">Substance Ontology Code System v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-20053000\"> </a>\u00a0\u00a0<a href=\"CodeSystem-substance-ontology-cs.html#substance-ontology-cs-20053000\">20053000</a></td><td>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</td><td>Amlodipine</td><td><div><p>Amlodipine</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-10220XXX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-substance-ontology-cs.html#substance-ontology-cs-10220XXX\">10220XXX</a></td><td>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</td><td>Amlodipine Besilate</td><td><div><p>Amlodipine Besilate</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-10220XXX1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-substance-ontology-cs.html#substance-ontology-cs-10220XXX1\">10220XXX1</a></td><td>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</td><td>Amlodipine Mesilate</td><td><div><p>Amlodipine Mesilate</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
+      "version" : "0.1.0",
+      "name" : "SubstanceOntologyVS",
+      "title" : "Substance ontology Value Set",
+      "status" : "draft",
+      "date" : "2023-08-02T19:28:52+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:314e2fe7-b06b-404f-8a81-ba17f667b716",
+        "timestamp" : "2023-08-02T19:29:22+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+          "code" : "20053000",
+          "display" : "Amlodipine"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+          "code" : "10220XXX",
+          "display" : "Amlodipine Besilate"
+        },
+        {
+          "system" : "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+          "code" : "10220XXX1",
+          "display" : "Amlodipine Mesilate"
+        }]
+      }
+    }
+  }]
+}

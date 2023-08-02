@@ -1,0 +1,79 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "dose-form-ontology-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">20053000<a name=\"dose-form-ontology-cs-20053000\"> </a></td><td>Oral use</td><td>Oral Use</td><td>10220XXX, 10220000</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a010220XXX<a name=\"dose-form-ontology-cs-10220XXX\"> </a></td><td>Capsule</td><td>Capsule</td><td/><td>20053000</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a010220000<a name=\"dose-form-ontology-cs-10220000\"> </a></td><td>Tablet</td><td>Tablet</td><td>10318000</td><td>20053000</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a010318000<a name=\"dose-form-ontology-cs-10318000\"> </a></td><td>Sublingual tablet</td><td>Sublingual tablet</td><td/><td>10220000</td></tr></table></div>"
+  },
+  "url" : "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+  "version" : "0.1.0",
+  "name" : "DoseFormOntologyCS",
+  "title" : "Dose Form Ontology Code System",
+  "status" : "draft",
+  "date" : "2023-08-02T19:28:52+00:00",
+  "publisher" : "Medigree",
+  "contact" : [{
+    "name" : "Medigree",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://medigree.net"
+    }]
+  }],
+  "hierarchyMeaning" : "is-a",
+  "content" : "complete",
+  "count" : 4,
+  "property" : [{
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "type" : "code"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "code" : "20053000",
+    "display" : "Oral use",
+    "definition" : "Oral Use",
+    "property" : [{
+      "code" : "child",
+      "valueCode" : "10220XXX"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "10220000"
+    }],
+    "concept" : [{
+      "code" : "10220XXX",
+      "display" : "Capsule",
+      "definition" : "Capsule",
+      "property" : [{
+        "code" : "parent",
+        "valueCode" : "20053000"
+      }]
+    },
+    {
+      "code" : "10220000",
+      "display" : "Tablet",
+      "definition" : "Tablet",
+      "property" : [{
+        "code" : "parent",
+        "valueCode" : "20053000"
+      },
+      {
+        "code" : "child",
+        "valueCode" : "10318000"
+      }],
+      "concept" : [{
+        "code" : "10318000",
+        "display" : "Sublingual tablet",
+        "definition" : "Sublingual tablet",
+        "property" : [{
+          "code" : "parent",
+          "valueCode" : "10220000"
+        }]
+      }]
+    }]
+  }]
+}

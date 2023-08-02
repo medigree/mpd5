@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="pt-ingredient-item-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td/></tr></table><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td style="white-space:nowrap">43<a name="pt-ingredient-item-cs-43"> </a></td><td>Amlodipina</td><td>Amlodipina</td><td>43.1, 43.2</td><td/></tr><tr><td style="white-space:nowrap">43.1<a name="pt-ingredient-item-cs-43.461"> </a></td><td>Amlodipina (mesilato)</td><td>Mesilato Amlodipina</td><td/><td>43</td></tr><tr><td style="white-space:nowrap">43.2<a name="pt-ingredient-item-cs-43.462"> </a></td><td>Amlodipina (besilato)</td><td>Besilato Amlodipina</td><td/><td>43</td></tr><tr><td style="white-space:nowrap">39<a name="pt-ingredient-item-cs-39"> </a></td><td>Atorvastatina</td><td>Atorvastatina</td><td/><td/></tr><tr><td style="white-space:nowrap">37<a name="pt-ingredient-item-cs-37"> </a></td><td>Candesartan</td><td>Candesartan</td><td/><td/></tr><tr><td style="white-space:nowrap">42<a name="pt-ingredient-item-cs-42"> </a></td><td>Ramipril</td><td>Ramipril</td><td/><td/></tr><tr><td style="white-space:nowrap">40<a name="pt-ingredient-item-cs-40"> </a></td><td>Perindopril</td><td>Perindopril</td><td/><td/></tr></table></div>
+  </text>
+  <url value="http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs"/>
+  <version value="0.1.0"/>
+  <name value="PTSubstanceCS"/>
+  <status value="active"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <property>
+    <code value="child"/>
+    <uri value="http://hl7.org/fhir/concept-properties#child"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="parent"/>
+    <uri value="http://hl7.org/fhir/concept-properties#parent"/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="43"/>
+    <display value="Amlodipina"/>
+    <definition value="Amlodipina"/>
+    <property>
+      <code value="child"/>
+      <valueCode value="43.1"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="43.2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="43.1"/>
+    <display value="Amlodipina (mesilato)"/>
+    <definition value="Mesilato Amlodipina"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="43"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="43.2"/>
+    <display value="Amlodipina (besilato)"/>
+    <definition value="Besilato Amlodipina"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="43"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="39"/>
+    <display value="Atorvastatina"/>
+    <definition value="Atorvastatina"/>
+  </concept>
+  <concept>
+    <code value="37"/>
+    <display value="Candesartan"/>
+    <definition value="Candesartan"/>
+  </concept>
+  <concept>
+    <code value="42"/>
+    <display value="Ramipril"/>
+    <definition value="Ramipril"/>
+  </concept>
+  <concept>
+    <code value="40"/>
+    <display value="Perindopril"/>
+    <definition value="Perindopril"/>
+  </concept>
+</CodeSystem>

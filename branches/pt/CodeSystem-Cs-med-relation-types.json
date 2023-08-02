@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Cs-med-relation-types",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">same<a name=\"Cs-med-relation-types-same\"> </a></td><td>same</td></tr></table></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types",
+  "version": "0.1.0",
+  "name": "CSMedRelationTypes",
+  "title": "Medication Relation Types",
+  "status": "active",
+  "date": "2022-08-29T19:31:01+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "description": "Medication Relation Types.",
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "same",
+      "display": "same"
+    }
+  ]
+}

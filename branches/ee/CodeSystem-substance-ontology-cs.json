@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "substance-ontology-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td/></tr></table><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">20053000<a name=\"substance-ontology-cs-20053000\"> </a></td><td>Amlodipine</td><td>Amlodipine</td><td>10220XXX, 10220000</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10220XXX<a name=\"substance-ontology-cs-10220XXX\"> </a></td><td>Amlodipine Besilate</td><td>Amlodipine Besilate</td><td/><td>20053000</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10220XXX1<a name=\"substance-ontology-cs-10220XXX1\"> </a></td><td>Amlodipine Mesilate</td><td>Amlodipine Mesilate</td><td/><td>20053000</td></tr></table></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+  "version": "0.1.0",
+  "name": "SubstanceOntologyCS",
+  "title": "Substance Ontology Code System",
+  "status": "active",
+  "date": "2022-08-26T19:11:10+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "count": 3,
+  "property": [
+    {
+      "code": "child",
+      "uri": "http://hl7.org/fhir/concept-properties#child",
+      "type": "code"
+    },
+    {
+      "code": "parent",
+      "uri": "http://hl7.org/fhir/concept-properties#parent",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "20053000",
+      "display": "Amlodipine",
+      "definition": "Amlodipine",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "10220XXX"
+        },
+        {
+          "code": "child",
+          "valueCode": "10220000"
+        }
+      ],
+      "concept": [
+        {
+          "code": "10220XXX",
+          "display": "Amlodipine Besilate",
+          "definition": "Amlodipine Besilate",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "20053000"
+            }
+          ]
+        },
+        {
+          "code": "10220XXX1",
+          "display": "Amlodipine Mesilate",
+          "definition": "Amlodipine Mesilate",
+          "property": [
+            {
+              "code": "parent",
+              "valueCode": "20053000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

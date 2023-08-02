@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="substance-ontology-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-substance-ontology-cs.html"><code>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs"/>
+  <version value="0.1.0"/>
+  <name value="SubstanceOntologyVS"/>
+  <title value="Substance ontology Value Set"/>
+  <status value="active"/>
+  <date value="2022-08-29T19:31:01+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"/>
+    </include>
+  </compose>
+</ValueSet>

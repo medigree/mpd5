@@ -1,0 +1,106 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pt-ingredient-item-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td/></tr></table><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"pt-ingredient-item-cs-43\"> </a></td><td>Amlodipina</td><td>Amlodipina</td><td>43.1, 43.2</td><td/></tr><tr><td style=\"white-space:nowrap\">43.1<a name=\"pt-ingredient-item-cs-43.461\"> </a></td><td>Amlodipina (mesilato)</td><td>Mesilato Amlodipina</td><td/><td>43</td></tr><tr><td style=\"white-space:nowrap\">43.2<a name=\"pt-ingredient-item-cs-43.462\"> </a></td><td>Amlodipina (besilato)</td><td>Besilato Amlodipina</td><td/><td>43</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"pt-ingredient-item-cs-39\"> </a></td><td>Atorvastatina</td><td>Atorvastatina</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"pt-ingredient-item-cs-37\"> </a></td><td>Candesartan</td><td>Candesartan</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"pt-ingredient-item-cs-42\"> </a></td><td>Ramipril</td><td>Ramipril</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"pt-ingredient-item-cs-40\"> </a></td><td>Perindopril</td><td>Perindopril</td><td/><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "PTSubstanceCS"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-08-29T19:31:01+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Medigree"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Medigree" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://medigree.net" ]
+     ]
+  ];
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "7"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.property [
+     fhir:index 0;
+     fhir:CodeSystem.property.code [ fhir:value "child" ];
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#child" ];
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ];
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ];
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "43" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Amlodipina" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Amlodipina" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "child" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "43.1" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "child" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "43.2" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "43.1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Amlodipina (mesilato)" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Mesilato Amlodipina" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "43" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "43.2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Amlodipina (besilato)" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Besilato Amlodipina" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "43" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "39" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Atorvastatina" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Atorvastatina" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "37" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Candesartan" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Candesartan" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "42" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ramipril" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Ramipril" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "40" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Perindopril" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Perindopril" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

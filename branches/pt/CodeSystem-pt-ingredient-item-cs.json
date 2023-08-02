@@ -1,0 +1,99 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pt-ingredient-item-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td/></tr></table><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"pt-ingredient-item-cs-43\"> </a></td><td>Amlodipina</td><td>Amlodipina</td><td>43.1, 43.2</td><td/></tr><tr><td style=\"white-space:nowrap\">43.1<a name=\"pt-ingredient-item-cs-43.461\"> </a></td><td>Amlodipina (mesilato)</td><td>Mesilato Amlodipina</td><td/><td>43</td></tr><tr><td style=\"white-space:nowrap\">43.2<a name=\"pt-ingredient-item-cs-43.462\"> </a></td><td>Amlodipina (besilato)</td><td>Besilato Amlodipina</td><td/><td>43</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"pt-ingredient-item-cs-39\"> </a></td><td>Atorvastatina</td><td>Atorvastatina</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"pt-ingredient-item-cs-37\"> </a></td><td>Candesartan</td><td>Candesartan</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"pt-ingredient-item-cs-42\"> </a></td><td>Ramipril</td><td>Ramipril</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"pt-ingredient-item-cs-40\"> </a></td><td>Perindopril</td><td>Perindopril</td><td/><td/></tr></table></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs",
+  "version": "0.1.0",
+  "name": "PTSubstanceCS",
+  "status": "active",
+  "date": "2022-08-29T19:31:01+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "count": 7,
+  "property": [
+    {
+      "code": "child",
+      "uri": "http://hl7.org/fhir/concept-properties#child",
+      "type": "code"
+    },
+    {
+      "code": "parent",
+      "uri": "http://hl7.org/fhir/concept-properties#parent",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "43",
+      "display": "Amlodipina",
+      "definition": "Amlodipina",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "43.1"
+        },
+        {
+          "code": "child",
+          "valueCode": "43.2"
+        }
+      ]
+    },
+    {
+      "code": "43.1",
+      "display": "Amlodipina (mesilato)",
+      "definition": "Mesilato Amlodipina",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "43"
+        }
+      ]
+    },
+    {
+      "code": "43.2",
+      "display": "Amlodipina (besilato)",
+      "definition": "Besilato Amlodipina",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "43"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "Atorvastatina",
+      "definition": "Atorvastatina"
+    },
+    {
+      "code": "37",
+      "display": "Candesartan",
+      "definition": "Candesartan"
+    },
+    {
+      "code": "42",
+      "display": "Ramipril",
+      "definition": "Ramipril"
+    },
+    {
+      "code": "40",
+      "display": "Perindopril",
+      "definition": "Perindopril"
+    }
+  ]
+}

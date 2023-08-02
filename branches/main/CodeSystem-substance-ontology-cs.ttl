@@ -1,0 +1,72 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "substance-ontology-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">20053000<a name=\"substance-ontology-cs-20053000\"> </a></td><td>Amlodipine</td><td>Amlodipine</td><td>10220XXX, 10220000</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10220XXX<a name=\"substance-ontology-cs-10220XXX\"> </a></td><td>Amlodipine Besilate</td><td>Amlodipine Besilate</td><td/><td>20053000</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10220XXX1<a name=\"substance-ontology-cs-10220XXX1\"> </a></td><td>Amlodipine Mesilate</td><td>Amlodipine Mesilate</td><td/><td>20053000</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SubstanceOntologyCS"] ; # 
+  fhir:title [ fhir:v "Substance Ontology Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-08-02T19:28:52+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Medigree"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Medigree" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://medigree.net" ]
+     ] )
+  ] ) ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "child" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#child"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "20053000" ] ;
+     fhir:display [ fhir:v "Amlodipine" ] ;
+     fhir:definition [ fhir:v "Amlodipine" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [ fhir:v "10220XXX" ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [ fhir:v "10220000" ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "10220XXX" ] ;
+       fhir:display [ fhir:v "Amlodipine Besilate" ] ;
+       fhir:definition [ fhir:v "Amlodipine Besilate" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "parent" ] ;
+         fhir:value [ fhir:v "20053000" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "10220XXX1" ] ;
+       fhir:display [ fhir:v "Amlodipine Mesilate" ] ;
+       fhir:definition [ fhir:v "Amlodipine Mesilate" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "parent" ] ;
+         fhir:value [ fhir:v "20053000" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

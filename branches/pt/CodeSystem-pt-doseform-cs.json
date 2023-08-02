@@ -1,0 +1,46 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pt-doseform-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">271<a name=\"pt-doseform-cs-271\"> </a></td><td>Comprimido</td><td>Comprimido</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"pt-doseform-cs-29\"> </a></td><td>Cápsula</td><td>Cápsula</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"pt-doseform-cs-39\"> </a></td><td>Comprimido revestido por película</td><td>Comprimido revestido por película</td></tr></table></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs",
+  "version": "0.1.0",
+  "name": "PTDoseFormCS",
+  "title": "Dose form code system",
+  "status": "active",
+  "date": "2022-08-29T19:31:01+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "description": "Dose form code system.",
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "271",
+      "display": "Comprimido",
+      "definition": "Comprimido"
+    },
+    {
+      "code": "29",
+      "display": "Cápsula",
+      "definition": "Cápsula"
+    },
+    {
+      "code": "39",
+      "display": "Comprimido revestido por película",
+      "definition": "Comprimido revestido por película"
+    }
+  ]
+}

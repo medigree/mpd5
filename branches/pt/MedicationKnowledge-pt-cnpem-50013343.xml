@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationKnowledge xmlns="http://hl7.org/fhir">
+  <id value="pt-cnpem-50013343"/>
+  <meta>
+    <profile value="http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationKnowledge</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationKnowledge "pt-cnpem-50013343" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PTCNPEM.html">PT CNPEM Profile</a></p></div><p><b>code</b>: 50013343 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#50013343)</span></p><p><b>intendedJurisdiction</b>: Portugal <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#PT)</span></p><p><b>name</b>: Amlopdipina 5 mg - 60 unidades</p><p><b>productType</b>: PT-CNPEM <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-prod-type-cs.html">Product Types code system</a>#PT-CNPEM)</span></p><h3>Packagings</h3><table class="grid"><tr><td>-</td><td><b>Extension</b></td></tr><tr><td>*</td><td></td></tr></table><blockquote><p><b>definitional</b></p><p><b>doseForm</b>: Comprimido <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pt-doseform-cs.html">Dose form code system</a>#271)</span></p><blockquote><p><b>ingredient</b></p><p><b>type</b>: Active Principle <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-pt-ingredient-role-cs.html">PTIngredientRoleCS</a>#1)</span></p><p><b>strength</b>: 5 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></p></blockquote></blockquote></div>
+  </text>
+  <code>
+    <coding>
+      <code value="50013343"/>
+    </coding>
+  </code>
+  <intendedJurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="PT"/>
+    </coding>
+  </intendedJurisdiction>
+  <name value="Amlopdipina 5 mg - 60 unidades"/>
+  <productType>
+    <coding>
+      <system value="https://medigree.github.io/mpd5/CodeSystem/prod-type-cs"/>
+      <code value="PT-CNPEM"/>
+    </coding>
+  </productType>
+  <packaging>
+    <extension url="http://medigree.net/fhir/mpd5/StructureDefinition/package-size">
+      <valueQuantity>
+        <value value="60"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="units"/>
+      </valueQuantity>
+    </extension>
+  </packaging>
+  <definitional>
+    <doseForm>
+      <coding>
+        <system value="http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs"/>
+        <code value="271"/>
+      </coding>
+    </doseForm>
+    <ingredient>
+      <item>
+        <concept>
+          <coding>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs"/>
+            <code value="43"/>
+          </coding>
+        </concept>
+      </item>
+      <type>
+        <coding>
+          <system value="http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-role-cs"/>
+          <code value="1"/>
+        </coding>
+      </type>
+      <strengthQuantity>
+        <value value="5"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mg"/>
+      </strengthQuantity>
+    </ingredient>
+  </definitional>
+</MedicationKnowledge>

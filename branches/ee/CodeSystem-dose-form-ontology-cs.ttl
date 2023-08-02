@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "dose-form-ontology-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td/></tr></table><p>This code system http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">20053000<a name=\"dose-form-ontology-cs-20053000\"> </a></td><td>Oral use</td><td>Oral Use</td><td>10220XXX, 10220000</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10220XXX<a name=\"dose-form-ontology-cs-10220XXX\"> </a></td><td>Capsule</td><td>Capsule</td><td/><td>20053000</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  10220000<a name=\"dose-form-ontology-cs-10220000\"> </a></td><td>Tablet</td><td>Tablet</td><td>10318000</td><td>20053000</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    10318000<a name=\"dose-form-ontology-cs-10318000\"> </a></td><td>Sublingual tablet</td><td>Sublingual tablet</td><td/><td>10220000</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "DoseFormOntologyCS"];
+  fhir:CodeSystem.title [ fhir:value "Dose Form Ontology Code System"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-08-26T19:11:10+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Medigree"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Medigree" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://medigree.net" ]
+     ]
+  ];
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.property [
+     fhir:index 0;
+     fhir:CodeSystem.property.code [ fhir:value "child" ];
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#child" ];
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ];
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ];
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "20053000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Oral use" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Oral Use" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "child" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10220XXX" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "child" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10220000" ]
+     ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "10220XXX" ];
+       fhir:CodeSystem.concept.display [ fhir:value "Capsule" ];
+       fhir:CodeSystem.concept.definition [ fhir:value "Capsule" ];
+       fhir:CodeSystem.concept.property [
+         fhir:index 0;
+         fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "20053000" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "10220000" ];
+       fhir:CodeSystem.concept.display [ fhir:value "Tablet" ];
+       fhir:CodeSystem.concept.definition [ fhir:value "Tablet" ];
+       fhir:CodeSystem.concept.property [
+         fhir:index 0;
+         fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "20053000" ]
+       ], [
+         fhir:index 1;
+         fhir:CodeSystem.concept.property.code [ fhir:value "child" ];
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10318000" ]
+       ];
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0;
+         fhir:CodeSystem.concept.code [ fhir:value "10318000" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Sublingual tablet" ];
+         fhir:CodeSystem.concept.definition [ fhir:value "Sublingual tablet" ];
+         fhir:CodeSystem.concept.property [
+           fhir:index 0;
+           fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "10220000" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

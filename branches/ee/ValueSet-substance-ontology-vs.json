@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "substance-ontology-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-substance-ontology-cs.html\"><code>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</code></a></li></ul></div>"
+  },
+  "url": "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
+  "version": "0.1.0",
+  "name": "SubstanceOntologyVS",
+  "title": "Substance ontology Value Set",
+  "status": "active",
+  "date": "2022-08-26T19:11:10+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"
+      }
+    ]
+  }
+}

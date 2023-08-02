@@ -1,0 +1,43 @@
+﻿MPD5 : Validation Results
+=========================================
+
+err = 0, warn = 18, info = 2
+IG Publisher Version: 1.3.25
+Generated Wed Aug 02 19:29:34 UTC 2023. FHIR version 5.0.0 for medigree.fhir.mpd5#0.1.0 (canonical = http://medigree.net/fhir/mpd5)
+ Build Errors : 0 / 8 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-dose-form-ontology-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-substance-ontology-cs : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-medigree.fhir.mpd5 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationKnowledge-Med1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-IdentifiableMedication : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-dose-form-ontology-vs : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-substance-ontology-vs : 0 / 2 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/dose-form-ontology-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/substance-ontology-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/dose-form-ontology-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/substance-ontology-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationKnowledge/Med1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-dose-form-ontology-cs.json ==
+INFORMATION: CodeSystem/dose-form-ontology-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/dose-form-ontology-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/dose-form-ontology-cs: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/dose-form-ontology-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-substance-ontology-cs.json ==
+INFORMATION: CodeSystem/substance-ontology-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/substance-ontology-cs: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/substance-ontology-cs: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/substance-ontology-cs: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/ImplementationGuide-medigree.fhir.mpd5.json ==
+== fsh-generated/resources/MedicationKnowledge-Med1.json ==
+== fsh-generated/resources/StructureDefinition-IdentifiableMedication.json ==
+== fsh-generated/resources/ValueSet-dose-form-ontology-vs.json ==
+WARNING: ValueSet/dose-form-ontology-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet/dose-form-ontology-vs: ValueSet: The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-substance-ontology-vs.json ==
+WARNING: ValueSet/substance-ontology-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet/substance-ontology-vs: ValueSet: The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile

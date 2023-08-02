@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="substance-ontology-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</code> defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Child</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style="white-space:nowrap">20053000<a name="substance-ontology-cs-20053000"> </a></td><td>Amlodipine</td><td>Amlodipine</td><td>10220XXX, 10220000</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  10220XXX<a name="substance-ontology-cs-10220XXX"> </a></td><td>Amlodipine Besilate</td><td>Amlodipine Besilate</td><td/><td>20053000</td></tr><tr><td>2</td><td style="white-space:nowrap">  10220XXX1<a name="substance-ontology-cs-10220XXX1"> </a></td><td>Amlodipine Mesilate</td><td>Amlodipine Mesilate</td><td/><td>20053000</td></tr></table></div>
+  </text>
+  <url value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"/>
+  <version value="0.1.0"/>
+  <name value="SubstanceOntologyCS"/>
+  <title value="Substance Ontology Code System"/>
+  <status value="draft"/>
+  <date value="2023-08-02T19:28:52+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <property>
+    <code value="child"/>
+    <uri value="http://hl7.org/fhir/concept-properties#child"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="parent"/>
+    <uri value="http://hl7.org/fhir/concept-properties#parent"/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="20053000"/>
+    <display value="Amlodipine"/>
+    <definition value="Amlodipine"/>
+    <property>
+      <code value="child"/>
+      <valueCode value="10220XXX"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="10220000"/>
+    </property>
+    <concept>
+      <code value="10220XXX"/>
+      <display value="Amlodipine Besilate"/>
+      <definition value="Amlodipine Besilate"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="20053000"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="10220XXX1"/>
+      <display value="Amlodipine Mesilate"/>
+      <definition value="Amlodipine Mesilate"/>
+      <property>
+        <code value="parent"/>
+        <valueCode value="20053000"/>
+      </property>
+    </concept>
+  </concept>
+</CodeSystem>

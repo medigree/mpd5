@@ -1,0 +1,247 @@
+{
+  "package": "medigree.fhir.mpd5",
+  "version": "0.1.0",
+  "fhirVersion": "5.0.0-snapshot1",
+  "extensions": [
+    {
+      "url": "http://medigree.net/fhir/mpd5/StructureDefinition/definedMedication",
+      "title": "DefinedMedication",
+      "types": [
+        "CodeableConcept",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://medigree.net/fhir/mpd5/StructureDefinition/drugCharacteristic",
+      "title": "Drug Characteristic",
+      "types": [
+        "CodeableConcept",
+        "base64Binary",
+        "string",
+        "Attachment",
+        "CodeableConcept",
+        "Quantity",
+        "Reference",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "integer64",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "CodeableReference",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "RatioRange",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "http://medigree.net/fhir/mpd5/StructureDefinition/medRelation",
+      "title": "MedRelation",
+      "types": [
+        "Coding",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://medigree.net/fhir/mpd5/StructureDefinition/package-size",
+      "title": "PackageSize",
+      "types": [
+        "Quantity"
+      ]
+    },
+    {
+      "url": "http://medigree.net/fhir/mpd5/StructureDefinition/relatedMedication",
+      "title": "Related Medication",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "integer64",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "CodeableReference",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "RatioRange",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    }
+  ],
+  "profiles": {
+    "Medication": [
+      {
+        "url": "http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed",
+        "title": "DefinedMed"
+      }
+    ],
+    "MedicationKnowledge": [
+      {
+        "url": "http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication",
+        "title": "IdentifiableMedication"
+      },
+      {
+        "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM",
+        "title": "PT CNPEM Profile"
+      },
+      {
+        "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB",
+        "title": "PTCNPEMXB"
+      },
+      {
+        "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct",
+        "title": "PackagedMedicinalProduct Profile"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "http://medigree.net/fhir/mpd5/StructureDefinition/XBMedicationRequest",
+        "title": "XBMedicationRequest"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/build/StructureDefinition/no-binding": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://medigree.net/fhir/mpd5/StructureDefinition/definedMedication": [
+      "Extension"
+    ],
+    "http://medigree.net/fhir/mpd5/StructureDefinition/drugCharacteristic": [
+      "Medication"
+    ],
+    "http://medigree.net/fhir/mpd5/StructureDefinition/medRelation": [
+      "Extension"
+    ],
+    "http://medigree.net/fhir/mpd5/StructureDefinition/package-size": [
+      "MedicationKnowledge.packaging"
+    ],
+    "http://medigree.net/fhir/mpd5/StructureDefinition/relatedMedication": [
+      "MedicationRequest"
+    ]
+  }
+}

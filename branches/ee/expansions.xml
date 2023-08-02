@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="ec04dd96-e1c0-439d-8ed6-2fa7e5dc881e"/>
+  <meta>
+    <lastUpdated value="2022-08-26T19:11:10.410+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="dose-form-ontology-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-dose-form-ontology-cs.html">Dose Form Ontology Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-dose-form-ontology-cs.html">
+                <code>http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-20053000"> </a>  
+                  <a href="CodeSystem-dose-form-ontology-cs.html#dose-form-ontology-cs-20053000">20053000</a>
+                </td>
+                <td>Oral use</td>
+                <td>Oral Use</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10220XXX"> </a>  
+                  <a href="CodeSystem-dose-form-ontology-cs.html#dose-form-ontology-cs-10220XXX">10220XXX</a>
+                </td>
+                <td>Capsule</td>
+                <td>Capsule</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10220000"> </a>  
+                  <a href="CodeSystem-dose-form-ontology-cs.html#dose-form-ontology-cs-10220000">10220000</a>
+                </td>
+                <td>Tablet</td>
+                <td>Tablet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-dose-form-ontology-cs-10318000"> </a>  
+                  <a href="CodeSystem-dose-form-ontology-cs.html#dose-form-ontology-cs-10318000">10318000</a>
+                </td>
+                <td>Sublingual tablet</td>
+                <td>Sublingual tablet</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-vs"/>
+        <version value="0.1.0"/>
+        <name value="DoseFormOntologyVS"/>
+        <title value="Dose Form ontology Value Set"/>
+        <status value="active"/>
+        <date value="2022-08-26T19:11:10+00:00"/>
+        <publisher value="Medigree"/>
+        <contact>
+          <name value="Medigree"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://medigree.net"/>
+          </telecom>
+        </contact>
+        <expansion>
+          <identifier value="urn:uuid:39d94dbc-a684-4a29-9f0c-22d1f920fb34"/>
+          <timestamp value="2022-08-26T19:11:32+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="20053000"/>
+            <display value="Oral use"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10220XXX"/>
+            <display value="Capsule"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10220000"/>
+            <display value="Tablet"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs"/>
+            <code value="10318000"/>
+            <display value="Sublingual tablet"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="substance-ontology-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-substance-ontology-cs.html">Substance Ontology Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-substance-ontology-cs.html">
+                <code>http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-20053000"> </a>  
+                  <a href="CodeSystem-substance-ontology-cs.html#substance-ontology-cs-20053000">20053000</a>
+                </td>
+                <td>Amlodipine</td>
+                <td>Amlodipine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-10220XXX"> </a>  
+                  <a href="CodeSystem-substance-ontology-cs.html#substance-ontology-cs-10220XXX">10220XXX</a>
+                </td>
+                <td>Amlodipine Besilate</td>
+                <td>Amlodipine Besilate</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---medigree.net-fhir-mpd5-CodeSystem-substance-ontology-cs-10220XXX1"> </a>  
+                  <a href="CodeSystem-substance-ontology-cs.html#substance-ontology-cs-10220XXX1">10220XXX1</a>
+                </td>
+                <td>Amlodipine Mesilate</td>
+                <td>Amlodipine Mesilate</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs"/>
+        <version value="0.1.0"/>
+        <name value="SubstanceOntologyVS"/>
+        <title value="Substance ontology Value Set"/>
+        <status value="active"/>
+        <date value="2022-08-26T19:11:10+00:00"/>
+        <publisher value="Medigree"/>
+        <contact>
+          <name value="Medigree"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://medigree.net"/>
+          </telecom>
+        </contact>
+        <expansion>
+          <identifier value="urn:uuid:87682d38-1e59-4514-88e5-1c58b90b928b"/>
+          <timestamp value="2022-08-26T19:11:32+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"/>
+            <code value="20053000"/>
+            <display value="Amlodipine"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"/>
+            <code value="10220XXX"/>
+            <display value="Amlodipine Besilate"/>
+          </contains>
+          <contains>
+            <system value="http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs"/>
+            <code value="10220XXX1"/>
+            <display value="Amlodipine Mesilate"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "Cs-med-relation-types",
+    "type": "CodeSystem",
+    "url": "http://medigree.net/fhir/mpd5/CodeSystem/Cs-med-relation-types",
+    "version": "0.1.0",
+    "name": "CSMedRelationTypes"
+  },
+  {
+    "id": "edqm-doseform-ont-cs",
+    "type": "CodeSystem",
+    "url": "http://medigree.net/fhir/mpd5/CodeSystem/dose-form-ontology-cs",
+    "version": "0.1.0",
+    "name": "EDQM_DOSEFORM_ONT_CS"
+  },
+  {
+    "id": "pt-doseform-cs",
+    "type": "CodeSystem",
+    "url": "http://medigree.net/fhir/mpd5/CodeSystem/pt-doseform-cs",
+    "version": "0.1.0",
+    "name": "PTDoseFormCS"
+  },
+  {
+    "id": "pt-ingredient-item-cs",
+    "type": "CodeSystem",
+    "url": "http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-item-cs",
+    "version": "0.1.0",
+    "name": "PTSubstanceCS"
+  },
+  {
+    "id": "pt-ingredient-role-cs",
+    "type": "CodeSystem",
+    "url": "http://medigree.net/fhir/mpd5/CodeSystem/pt-ingredient-role-cs",
+    "version": "0.1.0",
+    "name": "PTIngredientRoleCS"
+  },
+  {
+    "id": "pt-route-cs",
+    "type": "CodeSystem",
+    "url": "http://medigree.net/fhir/mpd5/CodeSystem/pt-route-cs",
+    "version": "0.1.0",
+    "name": "PTRouteCS"
+  },
+  {
+    "id": "substance-ontology-cs",
+    "type": "CodeSystem",
+    "url": "http://medigree.net/fhir/mpd5/CodeSystem/substance-ontology-cs",
+    "version": "0.1.0",
+    "name": "SubstanceOntologyCS"
+  },
+  {
+    "id": "medigree.fhir.mpd5",
+    "type": "ImplementationGuide",
+    "url": "http://medigree.net/fhir/mpd5/ImplementationGuide/medigree.fhir.mpd5",
+    "version": "0.1.0",
+    "name": "MPD5"
+  },
+  {
+    "id": "DefinedMed",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/DefinedMed",
+    "version": "0.1.0",
+    "name": "DefinedMed"
+  },
+  {
+    "id": "IdentifiableMedication",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/IdentifiableMedication",
+    "version": "0.1.0",
+    "name": "UNICOMIdentifiableMedication"
+  },
+  {
+    "id": "PTCNPEM",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEM",
+    "version": "0.1.0",
+    "name": "PTCNPEM"
+  },
+  {
+    "id": "PTCNPEMXB",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTCNPEMXB",
+    "version": "0.1.0",
+    "name": "PTCNPEMXB"
+  },
+  {
+    "id": "PTPackagedMedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/PTPackagedMedicinalProduct",
+    "version": "0.1.0",
+    "name": "PTPackagedMedicinalProduct"
+  },
+  {
+    "id": "XBMedicationRequest",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/XBMedicationRequest",
+    "version": "0.1.0",
+    "name": "XBMedicationRequest"
+  },
+  {
+    "id": "definedMedication",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/definedMedication",
+    "version": "0.1.0",
+    "name": "DefinedMedication"
+  },
+  {
+    "id": "drugCharacteristic",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/drugCharacteristic",
+    "version": "0.1.0",
+    "name": "DrugCharacteristic"
+  },
+  {
+    "id": "medRelation",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/medRelation",
+    "version": "0.1.0",
+    "name": "MedRelation"
+  },
+  {
+    "id": "package-size",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/package-size",
+    "version": "0.1.0",
+    "name": "PackageSize"
+  },
+  {
+    "id": "relatedMedication",
+    "type": "StructureDefinition",
+    "url": "http://medigree.net/fhir/mpd5/StructureDefinition/relatedMedication",
+    "version": "0.1.0",
+    "name": "RelatedMedication"
+  },
+  {
+    "id": "dose-form-ontology-cs",
+    "type": "ValueSet",
+    "url": "http://medigree.net/fhir/mpd5/ValueSet/dose-form-ontology-cs",
+    "version": "0.1.0",
+    "name": "EDQM_DOSEFORM_ONT_VS"
+  },
+  {
+    "id": "substance-ontology-vs",
+    "type": "ValueSet",
+    "url": "http://medigree.net/fhir/mpd5/ValueSet/substance-ontology-vs",
+    "version": "0.1.0",
+    "name": "SubstanceOntologyVS"
+  },
+  {
+    "id": "vs-med-relation-types",
+    "type": "ValueSet",
+    "url": "http://medigree.net/fhir/mpd5/ValueSet/vs-med-relation-types",
+    "version": "0.1.0",
+    "name": "VSMedRelationTypes"
+  },
+  {
+    "id": "edqm-route-cs",
+    "type": "CodeSystem",
+    "url": "http://www.edqm.eu/routes",
+    "version": "0.1.0",
+    "name": "EDQM_ROUTE_CS"
+  },
+  {
+    "id": "sp-mpd-name-country",
+    "type": "SearchParameter",
+    "url": "https://medigree.github.io/mpd/SearchParameter/sp-mpd-name-country",
+    "version": "0.1.0",
+    "name": "MPNameCountry"
+  },
+  {
+    "id": "prod-type-cs",
+    "type": "CodeSystem",
+    "url": "https://medigree.github.io/mpd5/CodeSystem/prod-type-cs",
+    "version": "0.1.0",
+    "name": "ProductTypeCS"
+  },
+  {
+    "id": "prod-type-vs",
+    "type": "ValueSet",
+    "url": "https://medigree.github.io/mpd5/ValueSet/prod-type-cs",
+    "version": "0.1.0",
+    "name": "ProductTypeVS"
+  }
+]
